@@ -1,0 +1,2912 @@
+#REDIRECT [[Heavy oil]]{{Languages}}{{Resource
+|name=Coal
+|icon=coal
+|hardness=0.9
+|time=2
+|fuel=8 MJ
+|producers = Manual + Mining Drill
+|processors = Manual + assembling machine + chemical plant
+|extra2 = {{infocardVRow|Used as fuel by|burner inserter + boiler + stone furnace + steel furnace + burner mining drill + diesel locomotive + tank + car|{{Item/parsing|burner inserter + boiler + stone furnace + steel furnace + burner mining drill + diesel locomotive + tank + car}}}}
+|consumers = basic grenade + poison capsule + slowdown capsule + plastic bar + explosives
+}}
+'''Coal''' is a [[Items#Resources|resource]] found on the map. It is used as [[fuel]] in burner machines and [[boiler]]s and currently also for [[diesel locomotive]]s, [[tank]]s, and [[car]]s.  It is also a component in several weapons and [[plastic bar]]s.
+
+== See also ==
+* [[Fuel]]
+
+{{C|Resources}}
+{{C|Items}}#REDIRECT [[Iron Gear Wheel]]#REDIRECT [[Iron Stick]]{{Languages}}
+{{Liquid
+|producers = offshore pump
+|processors = boiler + steam engine + chemical plant + oil refinery
+|consumers = concrete + light oil + petroleum gas + sulfuric acid + sulfur + explosives
+}}
+'''Water''' is a [[liquid]] extracted from lakes and oceans using an [[Offshore Pump]]. After being pumped out and distributed via [[pipe]]s, water can be used to generate electricity via [[Boiler]]s and [[Steam engine]]s, or be used in a [[Chemical plant]] or [[Oil refinery]] to assist the conversion of other liquids.
+
+== See Also ==
+* [[Liquid network]]
+* [[Electric network]]
+* [[Oil processing]]
+
+[[Category:Liquids]]
+[[Category:Liquid network]]#REDIRECT [[Copper Plate]]{{Languages}}
+{{Resource
+|name=Copper ore
+|icon=copper-ore
+|hardness=0.9
+|time=2
+|producers=Manual + Mining Drill
+|processors=Furnace
+|consumers=copper plate
+}}
+'''Copper ore''' is a [[Items#Resources|resource]] found on the map. It is smelted into [[copper plate]]s in a [[furnace]].
+
+[[Category: Resources]] [[Category: Items]]{{Languages}}
+{{Resource
+|hardness  = 0.4
+|time      = 2
+|producers = Manual + Mining Drill
+|consumers = stone brick + straight rail + curved rail + stone furnace
+}}
+
+'''Stone''' is a [[Items#Resources|resource]] found on the map. It is used for crafting [[Stone furnace]]s, [[Straight rail|Straight]] and [[Curved rail]]s, and can be baked into [[Stone brick]]s.
+
+[[Category:Resources]]
+[[Category:Items]]{{Languages}}
+{{Resource
+|hardness=0.9
+|time=2
+|producers=Manual + Mining Drill
+|processors=Furnace
+|consumers=iron plate + concrete
+}}
+'''Iron ore''' is a [[Items#Resources|resource]] found on the map. It can be smelted into [[Iron Plate]]s in a [[furnace]], and is also a component in [[Concrete]].
+
+{{C|Resources}}
+{{C|Items}}#REDIRECT [[Petroleum gas]]#REDIRECT [[Electronic Circuit]]{{Languages}}
+{{Item
+|input        =time, 5 + sulfur + coal + water
+|technologies =explosives
+|producers    =chemical plant
+|consumers    =land mine + cannon shells + explosive cannon shells + rocket + explosive rocket
+}}
+
+Explosives are used in crafting of [[land mine]]s and explosive ammunitions.{{Languages}}
+{{Item
+|input        =time, 5 + iron plate + copper plate + sulfuric acid, 2
+|technologies =battery (research)
+|producers    =chemical plant
+|consumers    =basic accumulator + flying robot frame + science pack 3 + battery MK1 + personal roboport + laser turret
+}}
+''This article is about the [[Battery]] intermediate product. For the modular armor equipment, see [[Battery MK1]]. For the technology, see [[Battery (research)]].''
+
+The battery is used in several key recipes, including [[science pack 3]] which is required for advanced research, and the [[flying robot frame]], which is required to build [[logistic robot|logistic]] and [[construction robot]]s.
+
+[[Category:Items]]{{Languages}}
+{{Liquid
+|producers =chemical plant
+|consumers =express transport belt + express splitter + electric engine unit
+}}
+'''Lubricant''' is a [[liquid]] converted from [[Heavy Oil]] in a [[Chemical plant]].
+
+{| class="wikitable"
+| '''Converted by:''' || {{icon|chemical-plant||Chemical Plant}} + {{icon|heavy-oil|1|Heavy Oil}} => {{icon|Lubricant|1|Lubricant}}
+|}
+
+== See also ==
+* [[Liquid network]]
+* [[Oil processing]]
+
+[[Category:Liquids]]
+[[Category:Liquid network]]{{Languages}}
+{{Science pack
+|input        =time, 12 + alien artifact
+|output       =alien science pack, 10
+|technologies =alien technology
+|producers    =manual + assembling machine
+|consumers    =lab
+}}
+The '''Alien Science Pack''' is consumed by [[Lab|Labs]] to [[research]] certain technologies. It can only be crafted from [[Alien artifact]]s, which can be found in the ruins of enemy spawners.
+
+Tips:
+* Depending on difficulty and playstyle it may be hard to get the first [[Alien artifact]]s. A way to get most [[Alien science pack]]s out of the collected artifacts is to create them in an [[Assembling machine 3]] and use four [[Productivity module 2]]'s in it and the [[Lab]]s. To top this off, research [[Productivity module 3]] as soon as possible and replace your module 2's.
+
+== See also ==
+* [[Research]]
+* [[Science pack]]
+
+[[Category:Items]]{{Languages}}
+{{Combat
+|range         =15
+|shootingspeed =15 /s
+|ammunition    =regular magazine + piercing rounds magazine
+|magazinesize  =10
+|input         =time, 3 + iron gear wheel, 10 + copper plate, 5 + iron plate, 10
+|raw           =time, 8 + iron plate, 30 + copper plate, 5
+|technologies  =military
+|boosttechs    =bullet damage + bullet shooting speed
+|producers     =manual + assembling machine 2 + assembling machine 3
+}}
+
+The Submachine gun is an upgrade from the [[Pistol]]. It fires the same ammunition types and deals the same damage as the pistol, but has a much higher rate of fire.
+
+This weapon can easily handle moderate waves of small biters, even with [[Regular Magazine|regular ammunition]], but destroying nests efficiently requires damage upgrades or the more expensive [[Piercing Rounds Magazine|piercing round]]. Regular and aggressive use will devour the player's ammo supply, and the high cost of producing ammo against respawning biters can stifle early game production.
+
+Because of these issues the submachine gun is best reserved for personal defense. Players wishing to take the fight to the biters should instead invest in the assault-friendly [[Shotgun]].
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]#REDIRECT [[Barrel]]{{languages}}
+{{Resource
+|name=Raw fish
+|icon=fish
+|image=Swimming-Fish.jpg
+|extra1={{InfocardRow|Restores|20 health}}
+}}
+<onlyinclude>
+'''Raw fish''' can be harvested from water. Since 0.7 they can be used to refill a small amount of health instantly. To harvest: Look for them swimming around in water (not all bodies of water have fish) then mine them as usual. To use: place the fish in the quick-bar and press the corresponding quick-slot key.
+</onlyinclude>
+{{c|Items}}{{c|Resources}}
+{{EquipNav}}{{Languages}}
+{{Item
+|input        =Time + Coal + Petroleum gas, 3
+|output       =Plastic bar, 2
+|technologies =Plastics
+|producers    =Chemical plant
+|consumers    =advanced circuit + low density structure + cannon shells + explosive cannon shells
+}}
+
+'''Plastic Bars''' are a requirement for the production of [[advanced circuit]]s which are highly used towards the mid to late game.  It is highly recommended to keep an eye on the production of plastic bars as it can quickly become a bottleneck as more advanced circuits become needed.
+
+== See Also ==
+* [[Advanced circuit]]
+* [[Robots]]
+* [[Logistic network]]
+* [[Modules]]
+
+[[Category:Items]]
+[[Category:Intermediate products]]#REDIRECT [[Light oil]]{{Languages}}
+{{Combat
+|health       =15
+|damage       =40 (explosive)
+|aoesize      =6
+|input        =time, 5 + steel plate + explosives, 2
+|technologies =land mines
+|boosttechs   =
+|producers    =manual + assembling machine
+}}
+
+[[File:land-mine-example-1.png|thumb|256px]]
+Land mines are the only passive defense system. The placement of landmines is not bound to the "square" raster, they can be placed "free". A land mine does enough damage to kill a [[Enemies|biter]].
+
+== See also ==
+* [[Enemies]]
+* [[Damage|Damage & resistances]]
+* [[Defense]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Combat]]{{Languages}}
+{{Item
+|input        =time, 0.5 + copper plate
+|output       =copper cable, 2
+|producers    =manual + assembling machine 1 + assembling machine 2 + assembling machine 3
+|consumers    =red wire + green wire + electronic circuit + advanced circuit + small electric pole + arithmetic combinator + decider combinator + constant combinator + basic beacon
+}}
+
+Copper cables are very important for manufacturing circuits and electrical connections.
+Copper cable can also be used to connect power poles. Select the Copper cable from your inventory, and connect it with a left click to two [[Electric network#Distribution|Electric poles]]. This way, you can manually wire some of the more complex systems, like [[Power_production/Dealing_with_priorities|making steam engines work only when accumulators are empty.]]
+
+==  Ratios ==
+Copper wire is used nearly solely for [[Electronic circuit]]s and [[Advanced circuit]]s. Note, that one [[Copper plate]] is needed to craft two wires. This expansion is a problem because belts are normally not able to handle that load.
+
+There are a number of good designs to handle this without belts:
+* [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=7323&start=30#p65214 Copper wires on belts]
+* [http://s29.postimg.org/bi8xxm6ed/Factorio_Chips.png Circuit production] from [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=5050 Endgame designs]
+* [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=7568 Cargo wagon sourced RGB circuits production facility]
+* [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=7065&start=10 New Player Sandbox factory]
+
+[[Category:Items]]
+[[Category:Intermediate products]]{{Languages}}
+{{Combat
+|range         =22
+|shootingspeed =1 /s
+|ammunition    =rocket + explosive rocket
+|magazinesize  =1
+|input         =time, 5 + iron plate, 5 + iron gear wheel, 5 + electronic circuit, 5
+|raw           =time, 13.8 + iron plate, 20 + copper plate, 7.5
+|technologies  =rocketry
+|boosttechs    =rocket damage + rocket shooting speed
+|producers     =manual + assembling machine 2 + assembling machine 3
+}}
+
+The rocket launcher is a strong weapon against [[Enemies|enemy bases]]. It has long range and high damage, but as the ammo is very expensive it is recommended to avoid using it against [[Enemies|enemy creatures]].
+
+'''See also:'''
+* [[Enemies]]
+* [[Damage|Damage & resistances]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]{{Languages}}
+{{Item
+|extra1    =<tr><td style="text-align: left;">Fuel value:</td><td>2.0 MJ</td></tr>
+|input     =time, 0.5 + raw wood
+|output    =wood, 2
+|producers =manual + assembling machine
+|consumers =wooden chest + small electric pole + shotgun + combat shotgun
+}}
+
+'''Wood''' is an item that is crafted from [[raw wood]].  Raw wood can be gathered from trees and logs found in the environment.
+
+[[Category:Intermediate products]]
+[[Category:Items]]#REDIRECT [[Advanced Circuit]]{{languages}}
+{{Item
+|input        =time, 15 + electronic circuit, 20 + advanced circuit, 2 + sulfuric acid, 0.5
+|raw          =time, 63 + sulfuric acid, 0.5 + iron plate, 24 + copper plate, 40 + plastic bar, 4
+|technologies =advanced electronics
+|producers    =assembling machine 2 + assembling machine 3
+}}
+
+Processing unit is the third tier of circuits and is used in some late game recipes, mainly for making [[module]]s, modular armor and its equipment, and the [[rocket silo]] and parts for the rocket.
+
+== Consumed By ==
+{{icon|speed module 2}}  {{icon|speed module 3}}  {{icon|efficiency module 2}}  {{icon|efficiency module 3}}  {{icon|productivity module 2}}  {{icon|productivity module 3}}<br>
+{{icon|rocket control unit}}  {{icon|satellite}}  {{icon|basic modular armor}}  {{icon|power armor}}  {{icon|power armor mk2}}  {{icon|portable solar panel}}<br>
+{{icon|portable fusion reactor}}  {{icon|energy shield mk2}}  {{icon|battery mk2}}  {{icon|personal laser defense}}  {{icon|discharge defense}}  {{icon|basic exoskeleton equipment}}<br>
+{{icon|personal roboport}}  {{icon|rocket silo}}
+
+[[Category:Items]]
+[[Category:Intermediate products]]{{Languages}}
+{{Resource
+| hardness  = 0.5
+| time      = 1-2 (depends on tree)
+| fuel      = 4 MJ
+| consumers = wood
+}}
+'''Raw wood''' is a basic [[Items#Resources|resource]] that can be collected by harvesting [[tree]]s. Raw wood has to be crafted into [[wood]] to be used in recipes, but can also be used as [[fuel]] in all burner devices (including [[car]]s and [[diesel locomotive]]s).
+
+*Dead trees will give 1 raw wood and have a mining time of 1.
+*Big trees will give 5 raw wood and have a mining time of 2.
+
+[[Category: Resources]]
+[[Category: Items]]#REDIRECT [[Science Pack 1]]#REDIRECT [[Crude oil]]#REDIRECT [[Science Pack 3]]#REDIRECT [[Science Pack 2]]#REDIRECT [[Sulfuric acid]]#REDIRECT [[Iron Plate]]{{Languages}}
+{{Combat
+|range         =15
+|shootingspeed =6 /s
+|ammunition    =regular magazine + piercing rounds magazine
+|magazinesize  =10
+|input         =time, 1 + copper plate, 5 + iron plate, 5
+|boosttechs    =bullet damage + bullet shooting speed
+|producers     =manual + assembling machine
+}}
+
+The [[Pistol]] is the most basic weapon in Factorio. It can fire either [[Regular Magazine|regular ammunition]] or [[Piercing Rounds Magazine|piercing ammunition]]. In Freeplay mode, the player starts with a Pistol and 10 Regular Magazines.
+
+The Pistol can only handle the smallest of enemy threats and the player will frequently take damage when trying to use it for self-defense. It is recommended to upgrade to the [[Submachine gun]] as soon as possible.
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]#REDIRECT [[Flamethrower Ammo]]{{Languages}}
+{{Tool
+|miningpower = 2.5
+|damage = 5 physical
+|durability = 4000
+|input=Time, 0.5 + Iron Stick, 2 + Iron Plate, 3
+|raw=Time + Iron Plate, 4
+|producers=manual + assembling machine
+}}
+
+The {{PAGENAME}} is a basic axe, used for manual mining of resources, for cutting trees and for collecting parts of the factory (so the player can rebuild them elsewhere). It can also be used for melee fighting when the player is out of ammo. It is mostly used in the beginning of the game where the player has no resources to set up drills to automatically mine. It is possible to stack multiple iron axes in the tool slot.
+
+'''See also:'''
+* [[Steel axe]]
+
+{{EquipNav}}
+
+[[Category:Equipment]]
+[[Category:Items]]#REDIRECT [[Stone Brick]]{{Languages}}
+{{Resource
+|image     = Artifact-drops.jpg
+|extra1    = Artifacts are dropped by destroyed spawners
+|consumers = alien science pack + portable fusion reactor + power armor + power armor mk2 + efficiency module 3 + speed module 3 + productivity module 3
+}}
+
+Alien artifacts (also known as Alien eggs) can only be obtained by destroying [[Enemies#Spawners|alien spawners]]. They are needed for some very powerful high tech equipment, but mainly for production of [[Alien science pack]]s. Unlike other items dropped on the ground, it is not necessary to use the Pick up items key to pick up artifactssimply walking over them is enough. Like other items, they can also be picked up by ordering [[Construction robot]]s to deconstruct them.
+
+== See also ==
+* [[Enemies]]
+* [[Science pack]]
+
+[[Category: Resources]] [[Category: Items]]#REDIRECT [[Steel Plate]]#REDIRECT [[Piercing Rounds Magazine]]#REDIRECT [[Regular Magazine]]{{Languages}}
+{{Combat
+|range        =1000
+|damage       =40 + 32 explosion
+|aoesize      =6.5
+|input        =time, 8 + rocket, 1 + explosives, 5
+|raw          =time, 9.3 + iron plate, 3 + copper plate, 1.5 + explosives, 7
+|technologies =explosive rocketry
+|producers    =manual + assembling machine
+}}
+
+Explosive rockets are alternate ammunition for the [[Rocket launcher]]. They have high range and damage what makes them perfect for attacking [[Enemies|enemy buildings]].
+
+== Usable ammunition for ==
+{{icon|rocket launcher}} [[Rocket launcher]]
+
+== See also ==
+* [[Crafting network]]
+* [[Enemies]]
+* [[Damage|Damage & resistances]]
+* [[Defense]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]{{Languages}}
+{{Tool
+|miningpower  =4
+|damage       =8 physical
+|durability   =5000
+|input        =Time, 0.5 + Steel Plate, 5 + Iron Stick, 2
+|raw          =Time + Iron Plate + Steel Plate, 5
+|technologies =Steel processing
+|producers    =Manual + Assembling machine
+}}
+
+'''Steel axes''' are tools which can be used to deconstruct buildings and destroy environmental features, as well as increase the damage done to enemies.
+
+'''See also:'''
+* [[iron axe]]
+
+{{EquipNav}}
+
+[[Category:Equipment]]
+[[Category:Items]]{{languages}}
+{{Combat
+|range        =1000
+|damage       =60 + 48 explosion
+|input        =time, 8 + electronic circuit + explosives, 2 + iron plate, 2
+|raw          =time, 9.3 + iron plate, 3 + copper plate, 1.5 + explosives, 2
+|technologies =rocketry
+|producers    =manual + assembling machine 2 + assembling machine 3
+|consumers    =explosive rocket
+}}
+
+Rockets are the common ammunition for the [[Rocket launcher]]. They have high range and damage that makes them perfect for attacking [[Enemies|enemy buildings]].
+
+== Usable ammunition for ==
+{{icon|rocket launcher}} [[Rocket launcher]]
+
+== See also ==
+* [[Crafting network]]
+* [[Enemies]]
+* [[Damage|Damage & resistances]]
+* [[Defense]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]{{Languages}}
+{{Combat
+|range         =15
+|shootingspeed =30
+|ammunition    =Flamethrower Ammo
+|magazinesize  =100
+|input         =Time, 10 + Steel Plate, 5 + Iron Gear Wheel, 10
+|raw           =Time, 15 + Iron Plate, 20 + Steel Plate, 5
+|technologies  =Flame thrower
+|producers     =Manual + assembling machine
+}}
+
+The flamethrower is an advanced weapon best used against hordes of enemies or trees. It has a decent damage and also an area of effect damaging multiple [[Enemies]] at once. It requires [[Flamethrower ammo]] to function.
+
+----
+'''See also:'''
+* [[Enemies]]
+* [[Damage|Damage & resistances]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]{{Languages}}
+{{Combat
+|range         =20
+|shootingspeed =1 /s
+|ammunition    =Shotgun shells + Piercing shotgun shells
+|magazinesize  =10
+|input         =Time, 4 + Wood, 5 + Iron Plate, 15 + Copper Plate, 10 + Iron Gear Wheel, 5
+|raw           =Time, 7.8 + Raw wood, 2.5 + Iron Plate, 25 + Copper Plate, 10
+|technologies  =Military
+|boosttechs    =Shotgun shell damage + Shotgun shell shooting speed
+|producers     =Manual + Assembling machine 2 + Assembling machine 3
+}}
+
+A basic but powerful weapon with good range, damage, and ammo efficiency, but low rate of fire. Fires in spread pattern.
+
+The Shotgun is the earliest weapon capable of seriously assaulting Biter nests. The weapon's starting damage can pierce nest armor (12x4 vs. 2) and destroy them with moderate difficulty. Shotgun ammo represents a massive boost on resource efficiency, with 2 copper and 2 iron giving a stack of shells worth 480 raw damage. Contrast this against the pistol ammo, which costs 2 iron for 40 raw damage. These traits make the shotgun user friendly for sustained assaults against biter nests.
+
+The shotgun sports a lower damage output and can not clear out biters with the same efficacy as the [[Submachine_gun|Submachine gun]]. Players can switch between both weapons to balance power and efficiency, or support themselves with covering fire from [[Defender_capsule|combat bots]] and [[Turret]]s.
+
+'''See also:'''
+* [[Combat shotgun]]
+* [[Damage|Damage & resistances]]
+* [[Enemies]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]{{Languages}}
+{{Item
+|input        =time, 20 + electric engine unit + battery, 2 + steel plate + electronic circuit, 3
+|raw          =time, 67.8 + iron plate, 6 + copper plate, 8.5 + steel plate, 2 + lubricant, 2 + battery, 2
+|technologies =robotics
+|producers    =manual + assembling machine 2 + assembling machine 3
+|consumers    =logistic robot + construction robot
+}}
+The '''Flying robot frame''' is a component used to build [[Robots]].
+
+[[Category:items]]
+[[Category:Intermediate products]]{{Languages}}
+{{Item
+|input        =time, 20 + engine unit + electronic circuit, 2 + lubricant, 2
+|raw          =time, 44 + heavy oil, 2 + iron plate, 3 + copper plate, 4 + steel plate
+|technologies =electric engine
+|producers    =assembling machine 2 + assembling machine 3
+|consumers    =small pump + flying robot frame + power armor + basic exoskeleton equipment + rocket silo
+}}
+Note that [[Lubricant]] requires a [[Chemical plant]] to be created and [[Engine unit]]s require [[Assembling machine]]s, meaning Electric engines cannot be built by hand from raw.
+
+An '''Electric engine unit''' is the advanced counterpart of the [[Engine unit]] and is used in many higher end recipes.
+
+== See also ==
+* [[Engine unit]]
+
+[[Category:Items]]
+[[Category:Intermediate products]]{{Languages}}
+{{Item
+|input        =Time, 1+ Water,3 +Petroleum gas,3
+|output       =Sulfur, 2
+|technologies =Sulfur processing
+|producers    =Chemical plant
+|consumers    =sulfuric acid + explosives
+}}
+
+'''Sulfur''' is a component in the production of [[Sulfuric Acid]] and [[Explosives]], both of which are also intermediate products used in higher-level recipes.
+
+Sulfur is a solid item in a chain of otherwise fluid-based manufacturing: [[Crude Oil]] -> [[Petroleum gas]] -> Sulfur -> [[Sulfuric Acid]].  It is thus recommended to keep an eye on sulfur production early on to make sure it does not become a bottleneck.
+
+== See Also ==
+* [[Batteries]]
+* [[Robots]]
+* [[basic accumulator|Accumulators]]
+* [[Laser turret]]
+
+[[Category:Items]]
+[[Category:Intermediate products]]{{Languages}}
+{{Item
+|input        =time, 20 + steel plate + iron gear wheel + pipe, 2
+|raw          =time, 21.5 + iron plate, 4 + steel plate
+|technologies =engine
+|producers    =assembling machine 2 + assembling machine 3
+|consumers    =electric engine unit + diesel locomotive + car + tank
+}}
+
+An '''Engine unit''' is used for building various vehicles, such as [[Diesel_locomotive|trains]] and [[Car|cars]]. This variant burns fuel to run, but there's also an [[Electric engine unit]].
+
+Optimal time/item usage: 2 [[Pipe]] factory + 1 [[Iron gear wheel]] factory &rarr; 40 [[Engine unit]] factories.
+
+== See also ==
+* [[Electric engine unit]]
+* [[Diesel locomotive]]
+* [[Car]]__NOTOC__
+{{languages}}
+{{Resource
+|fuel      =25 MJ
+|producers =chemical plant
+|consumers = burner inserter + burner mining drill + boiler + stone furnace + steel furnace + diesel locomotive + car + tank + rocket fuel
+}}
+
+[[Solid fuel]] is the third kind of [[Fuel]] besides wood and coal and is processed in a [[Chemical plant]]. 
+
+== Recipe ==
+
+There are three recipes to choose from, each one to create it from [[Heavy Oil]], [[Light Oil]] or [[Petroleum Gas]].
+{| class="wikitable"
+! Process !! Input !! Output
+|-
+| {{icon|solid-fuel-from-heavy-oil}} {{icon|solid-fuel-from-light-oil}} {{icon|solid-fuel-from-petroleum-gas}} || {{icon|heavy-oil|2|Heavy oil}} or {{icon|light-oil|1|Light oil}} or {{icon|petroleum-gas|2|Petroleum gas}} + {{icon|time icon|3|time}} || {{icon|solid-fuel|1|Solid fuel}}
+|-
+|}
+
+== When to use solid fuel ==
+As of version 0.12.0 solid fuel is used to produce [[Rocket fuel]], which is used to launch a rocket from the [[Rocket Silo]]
+
+Actually hard to say and depends much on the map. Generally if a map is rich of coal but poor on oil it is a bad choice to create solid fuel. With 25MJ solid fuel has more then three times the fuel value of coal, but there is only the need of mining drills to get coal while there has to be build [[Pumpjack]]s, [[Oil refinery]]s and [[Chemical plant]]s for creating solid fuel and maybe cracking oil.
+
+== Which recipe to use ==
+* [[Light Oil]] has actually nearly no use ingame and has the best oil to solid fuel ratio which makes it the best choice.
+* [[Heavy Oil]] is mainly used for [[Lubricant]] which isn't needed in huge amounts, but cause of the bad oil to solid fuel ratio it shouldn't be used direct to create solid fuel. Cracking heavy oil to light oil before processing to solid fuel has a better ratio of 2:1.5 instead of the normal 2:1 of heavy oil.
+* [[Petroleum Gas]] should not be used to create solid fuel in most cases.
+
+== See also ==
+* [[Oil processing]]
+* [[Fuel]]{{Languages}}
+Construction robots are autonomous floating devices. Construction robots have a few different uses.
+* They repair broken entities using [[Repair pack]]s.
+* They replace destroyed entities as long as they are available in a [[Provider chest]] or [[Storage chest]].
+* They remove entities marked with [[deconstruction planner]]. Removed entities are transported into storage chests.
+* They add entities marked with [[Blueprint]] as long as these entities are available.
+
+Construction robots are one of the priority targets of [[Biter]]s, meaning they will engage them even if there are [[Pollution]]-producing buildings around. Because they often operate at the "front", they are in high danger to be destroyed, because they can't defend themselves.
+
+[[Logistic robot cargo|More cargo]] or [[logistic robot speed|more speed]] for the logistic bots are also valid for the construction robots.
+
+They are slightly faster than Logistic bots at repairing.
+
+{| class="wikitable"
+| '''Recipe:''' || {{icon|flying-robot-frame|1|Flying robot frame}} + {{icon|electronic-circuit|2|Electronic Circuit}} + {{icon|time icon|0.5|time}} => {{icon|construction-robot|1|Construction robot}}
+|-
+| '''Total raw:''' || {{icon|copper-plate|7.5|Copper plate}} {{icon|iron-plate|5|Iron plate}} {{icon|steel-plate|1|Steel plate}}  {{icon|electric-engine-unit|1|Electric engine unit}} {{icon|battery|2|Battery}}
+|-
+| '''Capacity:''' || 1 (up to 5 with [[Logistic robot cargo]])
+|-
+| '''Basic speed:''' || 3.6 [[Tile|tiles]]/[[Game-second|sec]] (multiplied with [[logistic robot speed]], which is at level 1 only 1.2 tiles/sec)
+|-
+|}
+
+
+== See also ==
+* [[Robotic network]]
+* [[Logistic network]]
+* [[Repair]]
+** [[Repair pack]]
+* [[Robots]]
+
+[[Category: Items]] [[Category: Repair]]  [[Category: Robots]]{{Languages}}
+{{Item
+|name         =Battery Mk2
+|extra1       =<tr><td style="text-align: left;">Capacity</td><td>5 kJ</td></tr><tr><td style="text-align: left;">Size</td><td>2x2</td></tr>
+|input        =Time, 10 + Battery equipment, 10 + Processing unit, 20
+|technologies =Battery equipment MK2
+|producers    =Manual + Assembling machine
+}}
+''This article is about the [[Battery]] as modular armor equipment. For the intermediate product, see [[Battery]]. For the technology, see [[Battery equipment MK2 (research)|Battery Equipment Mk2 (research)]].''
+<onlyinclude>
+The [[Battery MK2]] provides 500kJ power storage for your [[Modular armor]]. This type is an improved version of the [[Battery MK1|Battery Mk1]] and provides more capacity per size.
+</onlyinclude>
+
+== See also ==
+* [[Modular armor]]
+* [[Battery]]
+
+[[Category: Items]] [[Category: Equipment]]
+{{EquipNav}}{{Languages}}
+{{Combat
+|range        =15
+|damage       =12x4 (physical)
+|magazinesize =10
+|input        =time, 3 + copper plate, 2 + iron plate, 2
+|technologies =military
+|boosttechs   =shotgun shell damage + shotgun shell shooting speed
+|producers    =manual + assembling machine
+}}
+
+Basic shells for all shotguns.
+
+== Useable Ammunition For ==
+{{icon|shotgun}} [[Shotgun]]<br>
+{{icon|combat shotgun}} [[Combat shotgun]]
+
+== See also ==
+* [[Piercing shotgun shells]]
+* [[Damage|Damage & resistances]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Equipment]]
+[[Category:Weapons]]
+[[Category:Combat]]{{Languages}}
+{{Item
+|name         =Night Vision
+|extra1       =<tr><td style="text-align: left;">Size</td><td>3x2</td></tr>
+|input        =Time, 10 + Steel plate, 10 + Advanced circuit, 5
+|technologies =Night vision (research)
+|producers    =Manual + Assembling machine
+}}
+<onlyinclude>
+[[File:night-vision-example-1.png|thumb|256px|Visibility at night.]]
+
+Having [[Night vision]] in your [[Modular armor|armor]] during the night replaces standard light-dependent vision with a green filter that ignores lighting conditions.
+
+The module activates rather early and deactivates late, meaning that during the dawn and the dusk it actually impairs the vision.
+
+Unlike other items such as exoskeletons or shields, equipping multiple night vision units has no effect.
+</onlyinclude>
+
+== See also ==
+* [[Modular armor]]
+
+[[Category: Items]] [[Category: Equipment]]
+{{EquipNav}}#REDIRECT [[Fast Transport Belt]]{{Item
+|extra1       =<tr><td style="text-align: left;">Max power output:</td><td>75 kW</td></tr>
+|dimensions   =4x4
+|input        =time, 10 + processing unit, 100 + alien artifact, 30
+|raw          =time, 6310 + sulfuric acid, 50 + iron plate, 2400 + copper plate, 4000 + plastic bar, 400 + alien artifact, 30
+|technologies =portable fusion reactor
+|producers    =manual + assembling machine
+}}
+Note that [[Processing unit]]s cannot be built by hand and as such the Fusion reactor may not be built by hand from raw.
+
+The [[Portable fusion reactor]] is cutting edge technology to improve functionality of your [[Modular armor]] suit. It provides a large amount of energy for usage of personal armor systems.
+
+----
+'''See also:'''
+* [[Modular armor]]
+* [[Portable solar panel]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Equipment]]{{Languages}}
+{{Item
+|extra1       =Can be inserted into armor.<tr><td style="text-align: left;">Max. power output:</td><td>1.0 kW</td></tr>
+|dimensions   =1x1
+|input        =time, 10 + solar panel, 5 + processing unit + steel plate, 5
+|technologies =portable solar panel
+|producers    =manual + assembling machine 2 + assembling machine 3
+}}
+
+The [[Portable solar panel]] is the basic power generating unit for [[Modular armor]]. It provides only a small amount of power only at daytime, usable only for small assistance [[Modular armor|modules]].
+
+Can be used to recharge [[Energy shield]]s out of combat, but is nearly useless for [[Personal laser defense]] or [[Basic exoskeleton equipment]], even with a large number of [[Battery|Batteries]]. Rendered obsolete with [[Portable fusion reactor]] in larger grids.
+
+----
+'''See also:'''
+* [[Modular armor]]
+* [[Portable fusion reactor]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Equipment]]{{Languages}}
+{{item
+|name =Energy shield MK2
+|extra1       =<tr><td style="text-align: left;">Capacity</td><td>150 HP</td></tr>
+<tr><td style="text-align: left;">Power consumption</td><td>36kW (when recharging)</td></tr>
+<tr><td style="text-align: left;">Size</td><td>2x2</td></tr>
+|input =Time, 10 + Energy Shield, 10 + Processing unit, 10
+|technologies =Energy shield MK2 equipment (research)
+|producers    =Manual + Assembling machine
+}}
+
+<onlyinclude>
+The [[Energy shield MK2]] generates a stronger protective shield around your character, absorbing a medium amount of [[Damage]].
+</onlyinclude>
+
+It takes 12.5 seconds to recharge from 0 to 150 hp. Multiple Shields recharge simultaneously. 
+
+The maximum shield recharge rate is ([number of energy shield MK2] * 150 / 12.5) units per second, if enough power is provided by [[Modular_armor#Equipment|batteries]] or [[Portable_fusion_reactor|portable reactor]]. But only is applied when all shields except the last one is depleted.
+
+e.g.:
+* 4 energy shields MK2
+* 2 portable fusion reactors
+
+# shield bar is full : recharge rate = 1/4 * maximum recharge rate
+# shield 1/4 depleted: recharge rate = 2/4 * maximum recharge rate
+# shield 2/4 depleted: recharge rate = 3/4 * maximum recharge rate
+# shield 3/4 depleted: recharge rate = 4/4 * maximum recharge rate
+
+if you add another energy shield, maximum recharge rate is only 83.33% because 5 shields drain 180 power while 2 reactors only provide 150. 
+
+
+== See also ==
+* [[Modular armor]]
+* [[Energy shield]]
+
+[[Category: Items]] [[Category: Equipment]]
+{{EquipNav}}{{Languages}}
+{{item
+|name =Energy shield
+|extra1       =<tr><td style="text-align: left;">Capacity</td><td>50 HP</td></tr>
+<tr><td style="text-align: left;">Power consumption</td><td>24kW (when recharging)</td></tr>
+<tr><td style="text-align: left;">Size</td><td>2x2</td></tr>
+|input =Time, 10 + Steel plate, 10 + Advanced circuit, 5
+|technologies =Energy shield equipment (research)
+|producers    =Manual + Assembling machine
+}}
+The [[Energy shield]] generates a basic protective shield around your character, absorbing a small amount of [[Damage]].
+
+The shield is effectively an extension of hp and has to be brought to 0 for the character to suffer any actual hp damage. Like actual hp, it benefits from your armor. Obsolete with [[Energy shield MK2]]
+
+It takes 4.167 seconds to recharge from 0 to 50 hp. Multiple Shields recharge simultaneously. 
+
+The maximum shield recharge rate is ([number of energy shield MK2] * 50 / 4.167) units per second, if enough power is provided by [[Modular_armor#Equipment|batteries]] or [[Portable_fusion_reactor|portable reactor]]. But only is applied when all shields except the last one is depleted.
+
+----
+'''See also:'''
+* [[Modular armor]]
+* [[Energy shield MK2]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Equipment]]{{Languages}}
+{{item
+|name =Discharge defense
+|extra1       =
+<tr><td style="text-align: left;">Damage</td><td>30 [[Damage|laser]]</td></tr>
+<tr><td style="text-align: left;">Power consumption</td><td>? kW</td></tr>
+<tr><td style="text-align: left;">Size</td><td>3x3</td></tr>
+|input =Time, 10 + Steel plate, 20 + Laser turret, 10 + Processing unit, 5
+|technologies =Discharge defense (research)
+|producers    =Manual + Assembling machine 2 + Assembling machine 3
+}}
+
+<onlyinclude>
+The [[Discharge defense]] provides an emergency self defense system. It attacks all enemies in a given radius with a good [[Damage]], but needs to be manually triggered by a [[Basic electric discharge defense remote]].
+</onlyinclude>
+See [http://www.factorioforums.com/forum/viewtopic.php?f=18&t=3153 Forum article] for usage.
+
+== See also ==
+* [[Modular armor]]
+* [[Basic electric discharge defense remote]]
+
+[[Category: Items]] [[Category: Equipment]]
+{{EquipNav}}#REDIRECT [[Underground belt]]#REDIRECT [[Splitter]]#REDIRECT [[Transport Belt]]{{Combat
+|range        =30
+|damage       =30 Physical, 80 Explosive
+|aoesize      =4
+|damagebonus  =30 Piercing Power
+|input        =time, 8 + steel plate, 4 + plastic bar, 2 + explosives, 4
+|technologies =tanks
+|producers    =manual + assembling machine 2 + assembling machine 3
+}}
+
+Ammunition used for the [[Tank]].
+
+== Useable Ammunition For ==
+{{icon|tank}} [[Tank]]
+
+== See also ==
+* [[Piercing rounds magazine]]
+* [[Enemies]]
+* [[Damage|Damage & resistances]]
+* [[Defense]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]{{languages}}
+{{Combat
+|resistance   =Acid: 3/30%<br>Explosion: 2/20%<br>Physical: 3/20%
+|durability   =1000
+|input        =time, 3 + Iron Plate, 40
+|technologies =Armor crafting
+|producers    =Manual + Assembling machine
+}}
+
+'''Iron armor''' is an armor type that provides basic protection against enemies.
+
+'''See also:'''
+* [[Armor]]
+* [[Damage]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Equipment]]
+[[Category:Weapons]]
+[[Category:Combat]]{{Languages}}
+{{Machinery
+|icon=Inserter-icon
+|health=40
+|energy=13 kW electric
+|drain=400 W electric
+|input=Time, 0.5 + Iron Plate + Iron Gear Wheel + Electronic Circuit
+|raw=Time, 2.3 + Iron Plate, 4 + Copper Plate, 1.5
+|producers=Manual + Assembling machine 2 + Assembling machine 3
+|consumers=Long handed inserter + Fast inserter
+}}
+
+The '''Inserter''' is the most basic ''electric'' inserter.
+
+Optimal time/item usage: 1 [[Iron gear wheel]] factory + 1 [[Electronic circuit]] factory &rarr; 1 [[Inserter]] factory.
+
+== See also ==
+* [[Transport network]]
+* [[Electric network]]
+* [[Inserters]]
+
+
+
+
+----
+{{MachineNav}}
+[[Category:Items]]
+[[Category:Transport network]]
+[[Category:Electric network]]
+[[Category:Inserters]]{{Languages}}
+{{sublinks|Underground belts}}
+{{Machinery
+|health=60
+|speed=5.4
+|input=Time, 0.5 + Iron Gear Wheel, 40 + Fast underground belt, 2
+|output=Express underground belt, 2
+|raw=Time, 34.5 + Iron Plate, 138
+|technologies=Logistics 3,3
+|producers=Manual + Assembling machine
+|consumers=Manual + Assembling machine
+}}
+The [[Express underground belt]] is the fastest variant of the [[Basic underground belt]].  These type of belts are generally used to allow a transport belt to cross another transport belt by going underneath it.
+
+== Other express belts ==
+{|
+| {{imagelink|express-transport-belt|Express transport belt}} || {{imagelink|express-splitter|Express splitter}} |-
+|}
+
+== Other [[Underground belts]] ==
+{|
+| {{imagelink|Basic-transport-belt-to-ground|Basic underground belt}} || {{imagelink|Fast-transport-belt-to-ground|Fast underground belt}} |-
+|}
+
+== Notes ==
+
+* Allows for maximum underground distance of 5 squares
+
+== See also ==
+* [[Transport network]]
+** [[Transport belts]]
+** [[Splitters]]
+** [[Inserters]]
+** [[Storages]]
+* [[Crafting network]]
+
+[[Category:Items]]
+[[Category:Transport network]]
+[[Category:Moving ground]]{{Languages}}
+{{Combat
+|health        =1000
+|resistance    =Acid: 10/20%<br/>Explosion: 15/30%<br/>Fire: 15/50%<br/>Impact 50/60%<br/>Physical: 15/30%
+|range         =Tank cannon: 25<br>Vehicle machine gun: 15
+|shootingspeed =Tank cannon: 0.67/s<br>Vehicle machine gun: 15/s
+|ammunition    =explosive cannon shells + cannon shells + regular magazine + piercing rounds magazine
+|input         =time, 0.5 + engine unit, 16 + steel plate, 50 + iron gear wheel, 15 + advanced circuit, 5
+|raw           =time, 405.5 + iron plate, 104 + copper plate, 25 + steel plate, 66 + plastic bar, 10
+|technologies  =tanks
+|producers     =manual + assembling machine 2 + assembling machine 3
+}}
+Know that [[Engine unit]]s may only be built by [[Assembling machine]]s and as a result Tanks may not be built from raw by hand.
+
+The '''Tank''' is a armored fighting [[vehicle]] added to the game in [[Changes in v0.11|Alpha 0.11]]. It is a mid-game weapon with two guns; an integrated [[Submachine gun]] and a powerful cannon that uses [[cannon shells]].
+
+==Combat==
+The tank is an incredibly strong fighting vehicle due to its large health pool and the very high damage of its main weapon, the cannon. Additionally, due to the ability to employ drones within the vehicle, it can be used as a form of drone or capsule transport vehicle, with the player simply using capsules to fight their battles. The tank particularly shines in battle against [[Worms]], as their projectile is unavoidable- not a problem for an entity with a high health pool.
+
+The tank lags behind in speed, however, compared to the player and [[car]]. As a result, it may not perform as well in combat against melee enemies or enemies with shorter range than the player, as it has more difficulty dodging enemies. This may result in the tank being destroyed quickly, leaving the player in a tight spot.
+
+==Movement==
+
+The tank is very robust and unlike the [[car]] can move through and destroy [[Raw wood|trees]] with near impunity, though forward momentum is required to do so. This can also be employed as a weapon against [[Enemies]], though be warned that certain enemies and structures- in particular, nests,- will deal high damage to your Tank in the process.
+
+The tank is slower than the [[Car]], but the freedom of being able to traverse trees with ease makes it a preferred vehicle among many players for exploring lands abroad.
+
+==Capsules and Bots integration==
+
+[[Player#Capsules|Capsules]] can be used while inside the tank, including combat robots.  [[Construction robot]]s, including those from a [[personal roboport]] within range of the tank will repair damage if [[repair pack]] are available. Also, [[Logistic robot]]s can still refill the player's inventory.  This can be very useful for reloading as new ammo dropped off to a player driving the tank will first be loaded into the tank if space is available.
+
+==Development data==
+
+https://www.factorio.com/blog/post/fff-56
+
+https://www.factorio.com/blog/post/fff-51
+
+https://www.factorio.com/blog/post/fff-48
+
+https://www.factorio.com/blog/post/fff-44
+
+* [http://www.factorioforums.com/forum/viewtopic.php?f=5&t=6973 Vehicles and Powered Armor] - make a laser tank
+
+== See also ==
+* [[Enemies]]
+* [[Damage|Damage & resistances]]
+
+{{EquipNav}}
+
+[[Category:Weapons]]
+[[Category:Combat]]#REDIRECT [[Fast Splitter]]{{Languages}}
+{{Machinery
+|health=500
+|supplyarea=50x50
+|constructionarea=100x100
+|transmission=200 kW electric
+|recharge=4 x 200 kW electric
+|rechargebuffer=2.0 MW electric
+|input=Steel Plate, 45 + Iron Gear Wheel, 45 + Advanced Circuit, 45 + Time, 15
+|raw=Iron Plate, 180 + Copper Plate, 225 + Steel Plate, 45 + Plastic bar, 90
+|technologies=Construction robotics
+|producers=Manual + Assembling machine 2 + Assembling machine 3
+}}
+The Roboport is the home for all [[Robots]]. It also spawns an area of 50x50, in which the robots can fly. 
+
+* The '''orange''' square represents the reach of logistics network where logistics robots can move. 
+* The '''green''' square represents the extent of construction network where construction robots can repair, construct or remove structures. 
+
+Roboports have also 4 chargers, which are used to recharge the flying bots.
+
+Two or more roboports can build a [[Robotic network|robotic network]], if the borders of the covered areas connect.
+
+== Storage ==
+A Roboport contains 7 [[Storages/Stack|slots]] reserved for [[Robots|robots]], and another 7 for [[Repair pack|repair packs]]. You can insert robots and repair packs with an [[inserter]]. While seemingly useful, a repair pack inside a roboport is reserved for the robots inside the roboport. Repair packs are better stored inside a [[Storage Chest|logistics storage chest]] where they can be used by all robots in the logistics network.
+
+== Power usage ==
+The Roboport needs ~200 kW of energy when idle, but can use up to ~2 MW when charging bots.
+
+== See also ==
+* [[Robotic network]]
+* [[Logistic network]]
+* [[Repair pack]]
+* [[Robots]]
+* [http://www.factorioforums.com/forum/viewtopic.php?f=18&t=6005 How exactly do RoboPorts work with each other?]
+* [http://www.factorioforums.com/forum/viewtopic.php?f=6&t=7993 Splitting up roboport functions]: 
+** Recharge bots
+** Store unused bots
+** Create a construction network
+** Create a logistics network
+
+{{MachineNav}}
+
+{{C|Items}}
+{{C|Logistic network}}
+{{C|Repair}}
+{{C|Robots}}{{Languages}}
+{{item
+|name =Personal laser defense
+|extra1       =
+<tr><td style="text-align: left;">Damage</td><td>5 [[Damage|laser]]</td></tr>
+<tr><td style="text-align: left;">Power consumption</td><td>? kW</td></tr>
+<tr><td style="text-align: left;">Size</td><td>2x3</td></tr>
+|input =Time, 10 + Steel plate, 5 + Laser turret, 5 + Processing unit, 1
+|raw          =Time, 598 + sulfuric acid, 120.5 + iron plate, 184 + copper plate, 270 + plastic bar, 4 + Steel plate, 105
+|technologies =Personal laser defense (research)
+|producers    =Manual + Assembling machine 2 + Assembling machine 3
+}}
+
+<onlyinclude>
+The [[Personal laser defense]] provides a basic laser defense system for your character.
+
+Automatically targets and fires at nearby [[Enemies]] and unlike hand-held weapons, doesn't slow the user down when attacking. Note that it consumes power after it fires (to recharge), so it doesn't necessarily need [[Battery|batteries]].
+
+Damage and attack speed are comparable to that of a [[Laser turret]] and probably benefit from upgrades for laser turrets.
+</onlyinclude>
+
+== See also == 
+* [[Modular armor]]
+* [[Discharge defense]]
+
+[[Category: Items]] [[Category: Equipment]]
+{{EquipNav}}{{Languages}}
+
+{{icon|logistic robot||Logistic robot}} Logistic robots are autonomous floating devices capable of transporting resources in a [[Logistic network]].
+
+Logistic robots are higher priority targets for [[Biter]]s than [[Pollution]]-producing buildings. Logistic robots have no means of defending themselves and do not run when they encounter enemies, so [[Turret|Turrets]] should be used to protect them.
+
+
+The following upgrades affect Logistic robots:
+* Increase robot carrying capacity with {{icon|Logistic robot cargo size (research)||Logistic robot cargo size}}[[Logistic robot cargo size (research)|Logistic robot cargo size]] 
+* Increase robot movement speed with {{icon|Logistic robot speed (research)||Logistic robot speed}}[[Logistic robot speed (research)|Logistic robot speed]] 
+* Increase robot pickup rate with {{icon|Inserter item stack size bonus (research)||Inserter item stack size bonus}}[[Inserter item stack size bonus (research)|Inserter item stack size bonus]] 
+
+{| class="wikitable"
+| '''Technology:''' || {{icon|Logistic robotics (research)||Logistic robotics}} [[Logistic robotics (research)|Logistic robotics]]
+|-
+| '''Recipe:''' || {{icon|flying-robot-frame|1|Flying robot frame}} + {{icon|advanced-circuit|2|Advanced Circuit}} + {{icon|time icon|0.5|Time}} => {{icon|logistic-robot|1|Logistic Robot}}
+|-
+| '''Total raw:''' || {{icon|copper-plate|15.5|Copper plate}} {{icon|iron-plate|13|Iron plate}} {{icon|steel-plate|2|Steel plate}} {{icon|plastic-bar|4|Plastic bar}} {{icon|battery|2|Battery}} {{icon|lubricant|2|Lubricant}}
+|-
+| '''Capacity:''' || 1 - Increased by 1 for every level of {{icon|Logistic robot cargo size (research)||Logistic robot cargo size}}[[Logistic robot cargo size (research)|Logistic robot cargo size]]
+|-
+| '''Basic speed:''' || 3.0 [[Tile|tiles]]/[[Game-second|sec]] - Increased by up to 240% with {{icon|Logistic robot speed (research)||Logistic robot speed}}[[Logistic robot speed (research)|Logistic robot speed]]
+|-
+| '''Item Stack Size (Pickup speed):''' || 1 - Increased by 1 for every level of {{icon|Inserter item stack size bonus (research)||Inserter item stack size bonus}}[[Inserter item stack size bonus (research)|Inserter item stack size bonus]] 
+|-
+| '''Stack Size in inventory:''' || Stacks in 50s
+|}
+
+== See also ==
+* [[Robots]]
+* [[Logistic network]]
+* [[Robotic network]]
+* [[Logistic robotics (research)]]
+
+[[Category: Items]] [[Category: Logistic network]] [[Category: Robots]]{{Languages}}
+{{Item
+|input        =time + advanced circuit
+|raw          =time, 12.5 + iron plate, 2 + copper plate, 5 + plastic bar, 2
+|technologies =automated construction
+|producers    =manual + assembling machine
+}}
+
+Deconstruction planner is an item which allows the player to mark entities for removal. Marked entities will be removed by [[construction robot]]s in construction network range and stored in [[storage chest]]s.
+
+You can use the deconstruction planner to '''cancel deconstruction''' <sup><i>(since v0.11)</i></sup>. First click the deconstruction planner to pick it up, then shift+click and highlight the area marked for deconstruction to cancel it.
+
+== See also ==
+* [[Blueprint]]{{Languages}}
+{{Item
+|input        =time + advanced circuit
+|raw          =time, 12.5 + iron plate, 2 + copper plate, 5 + plastic bar, 2
+|technologies =automated construction
+|producers    =manual + assembling machine
+}}
+
+[[Blueprint]]s are a smart way to 'copy & paste' parts of a factory with help of [[Construction robot]]s.
+__TOC__
+{{clear}}
+
+== Craft a blank blueprint ==
+
+Blank blueprints can be crafted in the crafting menu in the top row of the production tab. The blank blueprint can now be used to 'copy' a set of buildings.
+
+For example we will copy this small laser defense setup: [[File:Blueprint-example-01.png]]
+
+== Create a blueprint ==
+
+To create a blueprint select it out of the toolbar or the inventory. With the blueprint icon shown next to the mouse cursor, click and hold the left mouse button and drag a box as large as needed. All buildings which will be included in the blueprint will be highlighted green. If everything to 'copy' is inside the drag box, release the mouse button, and the 'Blueprint icon setup' menu will open.
+
+[[File:Blueprint-example-02.png]]
+
+== Blueprint icon setup ==
+
+On the top left of the 'Blueprint icon setup" menu there are four icon slots. The game chooses automatically the number of icons and which are pre-selected depending on the number of buildings that are included. This can be changed by simply clicking on the icons to choose the desired ones. 
+
+On the top right there are two icons to 'create blueprint' and 'cancel blueprint'. The 'create blueprint' icon will also show a preview of how the blueprint icon will look after creation.
+
+The 'Blueprint preview' just shows the preview of the blueprint.
+
+On the bottom is shown the 'Total' number of buildings included in the blueprint.
+
+Create the blueprint if everything is fine or cancel it. Canceling does not consume the blueprint item. The created blueprint will be in the toolbelt or the inventory (or dropped to ground if no toolbelt slot is available).
+
+[[File:Blueprint-example-03.png]]
+
+== Place the blueprint ==
+
+To use/place the created blueprint select it from your toolbelt or inventory. The whole building setup of the blueprint will be shown at your mouse cursor. It is possible to place it rotated. The blueprint can be placed anywhere inside the green (or orange) 100x100 area of a [[Roboport]].
+
+[[File:Blueprint-example-04.png]]
+
+After the blueprint gets placed somewhere, the buildings are placed as ghost buildings. [[Construction robot]]s will now start to pick up the needed items from the construction network and place them at the ghost buildings. The required items need to be in the network in an [[Active Provider chest]], a [[Passive Provider chest]] or a [[Storage chest]].
+
+[[File:Blueprint-example-05.png]]
+
+== Deleting a blueprint ==
+
+Blueprints can be deleted by right clicking them, which requires one [[Electronic circuit]]. After that the blueprint will be blank again.
+
+== Additional information ==
+
+* Once a blueprint is created it can be used unlimited times.
+* To place a blueprint that is blocked by existing buildings you can hold shift to place the things that aren't blocked.
+* Buildings marked for destruction will not block placing a blueprint. The building cannot be placed until a construction bot can remove it. This can cause an item outside the construction zone to block construction of a 2x2 building on the edge of the zone.
+* It is unknown if there is a limit for the size of a blueprint. But it is at least bigger then one screen, even when zoomed out all the way.
+* Placing very large blueprints can be problematic when parts of it are out of the roboport construction area. If roboports are part of the blueprint and are placed inside the construction area they will extend the logistics zone as soon as it is powered up.
+* Ghost-buildings stay for 5 minutes, after that they get removed. So be sure to have all items needed to build in this time frame. You can refresh the time limit by placing the blueprint again.
+
+== See also ==
+* [[Deconstruction planner]]#REDIRECT [[Express Splitter]]#REDIRECT [[Burner Inserter]]#REDIRECT [[Express Transport Belt]]{{Languages}}
+{{Machinery
+|image=Long-Handed-Inserter-Between-Chests
+|health=40
+|energy=18 kW electric
+|drain=400 W electric
+|input=Inserter + Iron Plate + Iron Gear Wheel + Time, 0.5
+|raw=Iron Plate, 7 + Copper Plate, 1.5 + Time, 3.3
+|producers=Manual + Assembling machine 2 + Assembling machine 3
+|technologies=Automation
+}}
+Electric [[inserter]] with 3 tile range, commonly used for placing items on a [[Transport belts|belt]] that is two tiles away from either an [[Assembling machine]] or a [[Furnace]].
+
+== See also ==
+* [[Transport network]]
+* [[Electric network]]
+* [[Inserters]]
+
+
+
+
+
+----
+{{MachineNav}}
+[[Category:Items]]
+[[Category:Transport network]]
+[[Category:Electric network]]
+[[Category:Inserters]]{{Languages}}
+{{Machinery
+|image=Fast-Inserter-Between-Chests
+|health=40
+|energy=32 kW electric
+|drain=400 W electric
+|input=Time, 0.5 + Inserter + Iron Plate, 2 + Electronic Circuit, 2
+|raw=Time, 5.3 + Iron Plate, 8 + Copper Plate, 4.5
+|technologies=Logistics
+|producers=Manual + Assembling machine 2 + Assembling machine 3
+|consumers=Smart inserter
+}}
+The [[Fast inserter]] is an electric inserter that is more than twice as fast as the regular [[Inserter]].
+
+== See also ==
+* [[Transport network]]
+* [[Electric network]]
+* [[Inserters]]
+
+{{MachineNav}}
+
+[[Category:Items]]
+[[Category:Transport network]]
+[[Category:Crafting network]]
+[[Category:Inserters]]{{Languages}}
+{{Combat
+|range         =20
+|shootingspeed =4 /s
+|input         =Time, 8 + Iron Gear Wheel, 3 + Electronic Circuit, 2 + Piercing Rounds Magazine
+|raw           =Time, 15 + Iron Plate, 8 + Copper Plate, 8 + Steel Plate
+|technologies  =Combat robotics
+|boosttechs    =Bullet shooting speed + Bullet damage + Follower robot count
+|producers     =Manual + Assembling machine 2 + Assembling machine 3
+|consumers     =distractor capsule
+|extra1        =Creates 1x [[Defender]]
+}}
+
+[[File:Defender-usage.gif|frame|right|Defender being spawned and following the player.]]
+A basic capsule which, when used, will spawn a single Defender robot. 
+The Defender has infinite ammunition and will follow the player, attacking any enemies that come within range, until it is destroyed or its lifespan elapses. To use; place the capsule in a quick-bar slot and press the corresponding quick-slot key. The capsule will fly to the position of the cursor and deploy. 
+
+== Strategy ==
+Follower robots will only loosely follow the player and are subject to inertia. This allows the player to 'swing' packs of follower robots into enemy bases to damage enemy structures with less risk to himself. Launching [[Distractor capsule]]s into the enemy base, as well as using the speed of the [[Car]] or [[Basic exoskeleton equipment]] can further reduce damage to the player.  
+
+== Count Limit ==
+[[File:Robot-Count.png|225px|thumb|right]]The maximum number of active Defender robots is limited by the [[Follower robot count]] research. While using follower robots, the number of robots in-use will be visible on an icon to the right of the quick-bar. Hovering over the icon with the cursor will show the types of robots and the currently researched maximum.
+
+----
+'''See also:'''
+* [[Poison capsule]]
+* [[Slowdown capsule]]
+* [[Distractor capsule]]
+* [[Destroyer capsule]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]{{languages}}
+{{Combat
+|range         =25
+|shootingspeed =2 /s
+|damage        =8 /s (poison)
+|input         =time, 8 + steel plate, 3 + electronic circuit, 3 + coal, 10
+|raw           =time, 11.8 + coal, 10 + iron plate, 3 + copper plate, 4.5 + steel plate, 3
+|technologies  =military 3
+|boosttechs    =
+|producers     =manual + assembling machine 2 + assembling machine 3
+}}
+
+[[File:Poison-usage.gif|frame|right|Poison capsule being deployed against some trees.]]
+
+A basic capsule that creates a large, long-lasting cloud of regular [[Damage|poison damage]] at the target area.  This is one of the most effective ways of removing [[Tree]]s.
+
+Poison capsules can also be used to "kite" [[Worms]], since they are stationary. This technique is relatively safe, but slow and expensive - it takes 4-5 poison capsules to kill a Big Worm. Since [[Spawners]] are not affected by poison damage, Poison capsules are also useless against them.
+
+----
+'''See also:'''
+* [[Defender capsule]]
+* [[Slowdown capsule]]
+* [[Distractor capsule]]
+* [[Destroyer capsule]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]{{Languages}}
+{{Combat
+|input        =Time, 0.5 + Electronic Circuit
+|raw          =Time, 1.8 + Iron Plate + Copper Plate, 1.5
+|technologies =Discharge defense
+|producers    =Manual + Assembling machine
+}}
+
+A remote for triggering the [[Discharge defense]] weapon.
+
+See [http://www.factorioforums.com/forum/viewtopic.php?f=18&t=3153 Forum article] for usage.
+
+----
+'''See also:'''
+* [[Modular armor]]
+* [[Discharge defense]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Equipment]]
+[[Category:Combat]]{{Languages}}
+{{Item
+|name         =Basic exoskeleton equipment
+|extra1       =<tr><td style="text-align: left;">Size</td><td>2x4</td></tr>
+<tr><td style="text-align: left;">Movement bonus</td><td>30% (stackable)</td></tr>
+<tr><td style="text-align: left;">Power consumption</td><td>200W (when moving only)</td></tr>
+|input        =Time, 10 + Steel plate, 20 + Processing unit, 10 + Electric engine unit, 30
+|raw          =time, 1960 + heavy oil, 60 + iron plate, 810 + copper plate, 240 + steel plate, 50 + sulfuric acid, 15 + plastic bar, 120
+|technologies =Basic exoskeleton equipment (research)
+|producers    =Manual + Assembling machine 2 + Assembling machine 3
+}}
+Note that [[Electrical engine unit]]s require [[Assembling machine]]s, and [[Processing unit]]s require [[Chemical plant]]s, so Basic exoskeletons may not be created from raw by hand.
+
+<onlyinclude>
+The [[Basic exoskeleton equipment]] enhances the movement speed (by 30%) of your character when inserted in a [[Modular armor]].
+It consumes 200W (200J/s) of power when used and will not work if power is not provided.
+It occupies a 2x4 (tall rectangle) in the modular armor.
+It is possible to use multiple exoskeletons in modular armor, and the speed bonus will stack additively.  There is no speed limit, it is limited only by the amount of room available in your armor.
+</onlyinclude>
+
+== See also ==
+* [[Modular armor]]
+
+[[Category: Items]] [[Category: Equipment]]
+{{EquipNav}}{{Languages}}
+{{Combat
+|range        =30
+|damage       =150 Physical, 50 Explosive
+|damagebonus  =300 Piercing Power
+|input        =time, 8 + steel plate, 4 + plastic bar, 2 + explosives
+|technologies =tanks
+|producers    =manual + assembling machine 2 + assembling machine 3
+}}
+
+Ammunition used for the [[Tank]].
+
+== Useable Ammunition For ==
+{{icon|tank}} [[Tank]]
+
+== See also ==
+* [[Piercing rounds magazine]]
+* [[Enemies]]
+* [[Damage|Damage & resistances]]
+* [[Defense]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]{{languages}}
+{{Combat
+|range        =15
+|damage       =16x6 (physical)
+|magazinesize =10
+|input        =time, 8 + copper plate, 2 + steel plate, 2
+|technologies =military 4
+|boosttechs   =shotgun shell damage + shotgun shell shooting speed
+|producers    =manual + assembling machine
+}}
+
+Advanced shells for all shotguns.
+
+== Useable Ammunition For ==
+{{icon|shotgun}} [[Shotgun]]<br>
+{{icon|combat shotgun}} [[Combat shotgun]]
+
+== See also ==
+* [[Shotgun shells]]
+* [[Damage|Damage & resistances]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Equipment]]
+[[Category:Weapons]]
+[[Category:Combat]]{{Languages}}
+{{Combat
+|range         =15
+|shootingspeed =2 /s
+|aoesize       =6.5
+|damage        =25 Explosion
+|input         =Time, 8 + Coal, 10 + Iron Plate, 5
+|technologies  =Military 2
+|producers     =Manual + assembling machine
+}}
+
+[[File:Grenade-usage.gif|frame|right|Player destroying a tree with the grenade]]
+A basic explosive weapon, throwable within a short distance.
+
+----
+'''See also:'''
+* [[Damage|Damage & resistances]]
+* [[Enemies]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]{{Languages}}
+{{Combat
+|resistance   =Acid: 5/30%<br>Explosion: 10/30%<br>Physical: 6/30%
+|durability   =10,000
+|gridsize     =5x5
+|input        =Time, 15 + Steel Plate, 50 + Advanced Circuit, 30 + Processing Unit, 5
+|raw          =Time, 360 + Iron Plate, 60 + Copper Plate, 150 + Steel Plate, 50 + Plastic bar, 60 + Processing Unit, 5
+|technologies =Armor crafting 3
+|producers    =Manual + Assembling machine 2 + Assembling machine 3
+}}
+
+The most basic armor providing access to modular enhancements. Provides a 5 by 5 grid for [[Player#Armor_Modules|modules]].
+
+'''See also:'''
+* [[Armor]]
+* [[Modular armor]]
+* [[Damage|Damage & resistances]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Equipment]]
+[[Category:Combat]]{{Languages}}
+{{Combat
+|range         =20
+|shootingspeed =2 /s
+|damagebonus   =20%
+|ammunition    =Shotgun shells + Piercing shotgun shells
+|magazinesize  =10
+|input         =Time, 8 + Wood, 10 + Copper Plate, 10 + Steel Plate, 15 + Iron Gear Wheel, 5
+|raw           =Time, 13 + Raw wood, 5 + Iron Plate, 10 + Copper Plate, 10 + Steel Plate, 15
+|technologies  =Military 3, 3
+|boosttechs    =Shotgun shell damage + Shotgun shell shooting speed
+|producers     =Manual + Assembling machine 2 + Assembling machine 3
+}}
+
+An advanced shotgun with good range and damage but low cadence. 
+
+'''See also:'''
+* [[Damage|Damage & resistances]]
+* [[Shotgun]]
+* [[Enemies]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]{{languages}}
+{{Item
+|input        =time, 0.5 + electronic circuit + copper cable
+|raw          =time, 2 + iron plate + copper plate, 2
+|technologies =circuit network
+|producers    =manual + assembling machine 1 + assembling machine 2 + assembling machine 3
+}}
+
+[[Red wire]] is used to connect "Smart" devices to a red [[Circuit network]]. Select the red wire from your inventory connect it with a left click to an [[Electric network#Distribution|Electric pole]] or to an item capable of using a [[Circuit network]].
+
+== See also ==
+* [[Green wire]]
+* [[Electric network]]
+* [[Circuit network]]
+
+[[Category:Items]]
+[[Category:Circuit network]]
+[[Category:Electric network]]{{Languages}}
+{{Machinery
+|health        =200
+|storage       =80
+|energy        =150 kW burner
+|pollution     =
+|input        =time, 0.5 + engine unit, 8 + iron plate, 20 + steel plate, 5
+|raw          =time, 173 + iron plate, 52 + steel plate, 13
+|technologies =Automobilism
+|producers    =Manual + Assembling machine 2 + Assembling machine 3
+|consumers    =
+}}
+[[File:car-anim.gif|thumb|256px]]
+
+The [[Car]] is the earliest alternate form of transportation for the player. Although it requires a bit of fuel, driving a Car is much faster than running, letting you scout out areas or outmaneuver [[biters]]. Cars also have a built-in turret (which requires ammo), plenty of storage, and some armor, letting the player use hit-and-run tactics against small groups of enemies.
+
+As of update v0.11, cars will collide with objects - dealing and taking damage in the process. The damage is dependent on the car's speed and the health of the target; small [[biter]]s and trees can be safely rammed, but colliding with big biters and [[Wall]]s can easily destroy the vehicle and its contents.
+
+Since [[Engine unit]]s can only be built in [[Assembling machine]]s, Cars may not be built from by hand from their raw materials.
+
+== Use for Storage ==
+Cars can store a tremendous amount of items, be moved along conveyer belts, and interact with [[inserter]]s. They can be used as large chests or even mini-trains ([http://www.factorioforums.com/forum/viewtopic.php?f=8&t=8805 Cars on Belts - Not just a highway]).
+
+== Old sprites ==
+There is an thread about the  [http://www.factorioforums.com/forum/viewtopic.php?f=5&t=3087  old sprites of the car]. It includes also the old graphics and how to replace it in game.
+
+== Controls ==
+''These are the default bindings. They can be changed in the Options menu.''
+{|
+|Enter/Exit
+|Enter
+|-
+|Accelerate
+|W
+|-
+|Decelerate/Reverse
+|S
+|-
+|Steer
+|A,D
+|}
+
+== See also ==
+* [[Railway network]]
+
+{{C|Items}}
+{{EquipNav}}{{Languages}}
+{{Item
+|input        =time, 0.5 + electronic circuit + copper cable
+|raw          =time, 2 + iron plate + copper plate, 2
+|technologies =circuit network
+|producers    =manual + assembling machine 1 + assembling machine 2 + assembling machine 3
+}}
+
+[[Green wire]] is used to connect "Smart" devices to the green [[Circuit network]]. Select the green wire from your inventory connect it with a left click to an [[Electric network#Distribution|Electric pole]] or to an item capable of using a [[Circuit network]].
+
+== See also ==
+* [[Electric network]]
+* [[Circuit network]]
+* [[Red wire]]
+
+[[Category:Items]]
+[[Category:Circuit network]]
+[[Category:Electric network]]{{Languages}}
+{{sublinks|Underground belts}}
+{{Machinery
+|health=60
+|speed=3.6
+|input=Time, 0.5 + Iron Gear Wheel, 20 + Underground belt, 2
+|output=Fast underground belt, 2
+|raw=Time, 14 + Iron Plate, 57.5
+|technologies=Logistics 2,2
+|producers=Manual + Assembling machine
+|consumers=Manual + Assembling machine
+}}
+The [[Fast underground belt]] is a faster variant of the [[Basic underground belt]].  These type of belts are generally used to allow a transport belt to cross another transport belt by going underneath it.
+
+== Other fast belts ==
+{|
+| {{imagelink|fast-transport-belt|Fast transport belt}} || {{imagelink|fast-splitter|Fast splitter}} |-
+|}
+
+== Other [[Underground belts]] ==
+{|
+| {{imagelink|Basic-transport-belt-to-ground|Basic underground belt}} || {{imagelink|Express-transport-belt-to-ground|Express underground belt}} |-
+|}
+
+== Notes ==
+
+* Allows for maximum underground distance of 5 squares
+
+== See also ==
+* [[Transport network]]
+** [[Transport belts]]
+** [[Splitters]]
+** [[Inserters]]
+** [[Storages]]
+* [[Crafting network]]
+
+
+[[Category: Items]] [[Category: Transport network]] [[Category: Moving ground]]{{Combat
+|range         =25
+|shootingspeed =2 /s
+|aoesize       =9
+|input         =time, 8 + steel plate, 2 + electronic circuit, 2 + coal, 5
+|raw           =time, 10.5 + coal, 5 + iron plate, 2 + copper plate, 3 + steel plate, 2
+|technologies  =military 3
+|producers     =manual + assembling machine 2 + assembling machine 3
+}}
+
+A basic capsule defending the player slowing [[Enemies|enemy]] movement.
+
+----
+'''See also:'''
+* [[Poison capsule]]
+* [[Defender capsule]]
+* [[Distractor capsule]]
+* [[Destroyer capsule]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]{{Combat
+|resistance   =Acid: 5/30%<br/>Explosion: 10/30%<br/>Physical: 6/30%
+|durability   =5000
+|input        =time, 8 + copper plate, 100 + steel plate, 50
+|technologies =Armor crafting 2
+|producers    =manual + assembling machine
+}}
+
+Early to mid game armor, still easy to obtain and affords adequate protection with no worms present.
+
+'''See also:'''
+* [[Armor]]
+* [[Damage|Damage & resistances]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Equipment]]
+[[Category:Weapons]]
+[[Category:Combat]]{{Languages}}
+{{Combat
+|range         =25
+|shootingspeed =2 /s
+|input         =Time, 15 + Advanced Circuit, 3 + Defender capsule, 4
+|raw           =Time, 110 + Iron Plate, 38 + Copper Plate, 47 + Steel Plate, 4 + Plastic bar, 6
+|technologies  =Combat robotics 2
+|boosttechs    =Combat robot damage + Follower robot count
+|producers     =Manual + Assembling machine
+|consumers     =destroyer capsule
+|extra1        =Creates 3x [[Distractor]]
+}}
+
+[[File:Distractor-usage.gif|frame|right|Distractor robots being spawned and holding position.]]
+An advanced capsule which, when used, will spawn three Distractor robots at the players cursor. 
+Distractors have infinite laser energy and will hold their general position, attacking any enemies that come within range, until they are destroyed or their lifespans elapse. To use; place the capsule in a quick-bar slot and press the corresponding quick-slot key. The capsule will fly to the position of the cursor and deploy. 
+
+== Strategy ==
+Distractor robots can be useful for providing temporary defense for weak or undefended areas during Biter attacks. They are also very useful for drawing the fire of enemy worms while attacking Biter bases. Simply fire one or more Distractor capsules into the midst of enemy worms and, as long as they have not already targeted the player, the worms will prioritize killing the Distractors.
+== Count Limit ==
+[[File:Robot-Count.png|225px|thumb|right]]Since the Distractor robot is stationary, it is unaffected by and does not count toward the [[Follower robot count]] limit imposed on other Combat Robots. The number of concurrently spawned Distractors is limited only by their lifespan, number of Defender Capsules carried, and delay in spawning.
+
+----
+'''See also:'''
+* [[Poison capsule]]
+* [[Slowdown capsule]]
+* [[Defender capsule]]
+* [[Destroyer capsule]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]{{Languages}}
+{{Combat
+|range         =25
+|shootingspeed =2 /s
+|input         =Time, 15 + Speed module + Distractor capsule, 4
+|raw           =Time, 532 + Iron Plate, 167 + Copper Plate, 221 + Steel Plate, 16 + Plastic bar, 34
+|technologies  =Combat robotics 3
+|boosttechs    =Combat robot damage + Follower robot count
+|producers     =Manual + Assembling machine
+|extra1        =Creates 5x [[Destroyer]]
+}}
+
+[[File:Destroyer-usage.gif|frame|right|Destroyers being spawned and following the player.]]
+[[Destroyer capsule]]s are advanced and expensive capsules that, when thrown with the left mouse button, spawn five powerful Destroyer robots.
+The Destroyer robots have infinite laser energy and will follow the player, attacking any enemies that come within range, until they run out of health or their lifespans elapse.
+
+== Strategy ==
+Follower robots will only loosely follow the player and are subject to inertia. This allows the player to 'swing' packs of Defender/Destroyer robots into enemy bases to damage enemy structures with less risk to himself. Launching [[Distractor capsule]]s into the enemy base beforehand, as well as using the speed of the [[Car]] or [[Basic exoskeleton equipment]] can further reduce damage to the player. 
+
+== Count Limit ==
+[[File:Robot-Count.png|225px|thumb|right]]The maximum number of active Destroyer robots is limited by the [[Follower robot count]] research. While using follower robots, the number of robots in use will be visible in an icon to the right of the quick-bar. Hovering over the icon with the cursor will show the types of robots and the currently researched maximum.
+
+----
+'''See also:'''
+* [[Poison capsule]]
+* [[Slowdown capsule]]
+* [[Defender capsule]]
+* [[Distractor capsule]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Weapons]]
+[[Category:Equipment]]
+[[Category:Combat]]{{Combat
+|resistance   =Acid: 7/30%<br>Explosion: 15/30%<br>Physical: 8/30%
+|durability   =15,000
+|gridsize     =7x7
+|input        =Time, 20 + Steel Plate, 100 + Alien artifact, 10 + Processing Unit, 100 + Electric engine unit, 20
+|raw          =Time, 7640 + heavy oil, 60 + iron plate, 2490 + copper plate, 4120  + Steel Plate, 130 + Alien artifact, 10 + sulfuric acid, 50 + plastic bar, 400
+|technologies =Power armor
+|producers    =Manual + Assembling machine 2 + Assembling machine 3
+}}
+Note that [[Electric engine unit]]s, the [[Engine unit]]s they require, and [[Processing unit]]s all require assemblers, and [[Lubricant]] requires a [[Chemical plant]], meaning that Power armor may not be built by hand from raw.
+
+An advanced armor providing access to modular enhancements. Provides a 7 by 7 grid.
+
+'''See also:'''
+* [[Armor]]
+* [[Modular armor]]
+* [[Damage|Damage & resistances]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Equipment]]
+[[Category:Combat]]{{Languages}}
+{{Item
+|name         =Battery Mk1
+|extra1       =<tr><td style="text-align: left;">Capacity</td><td>100 kJ</td></tr><tr><td style="text-align: left;">Size</td><td>1x2</td></tr>
+|input        =Time, 10 + Steel plate, 10 + Battery, 5
+|technologies =Battery equipment
+|producers    =Manual + Assembling machine
+}}
+''This article is about the [[Battery]] as modular armor equipment. For the intermediate product, see [[Battery]]. For the technology, see [[Battery equipment (research)|Battery equipment (research)]].''
+
+<onlyinclude>
+The [[Battery MK1]] (''ingame only named Battery'') provides a basic power storage for your [[Modular armor]]. Improved by [[Battery MK2]]
+</onlyinclude>
+
+== See also ==
+* [[Modular armor]]
+* [[Battery]]
+
+[[Category: Items]] [[Category: Equipment]]
+{{EquipNav}}{{Languages}}
+{{Combat
+|resistance   =Acid: 10/40%<br>Explosion: 20/50%<br>Physical: 10/40%
+|durability   =20,000
+|gridsize     =10x10
+|input        =Time, 25 + Speed module 3, 5 + Efficiency module 3, 5 + Steel Plate, 50 + Alien artifact, 50 + Processing Unit, 200
+|raw          =Time, 49225 + Iron Plate, 14650 + Copper Plate, 26225 + Steel Plate, 50 + Alien artifact, 60 + Plastic bar, 4250 + sulfuric acid, 240.5
+|technologies =Power armor 2
+|producers    =Manual + Assembling machine 2 + Assembling machine 3
+}}
+Note that [[Processing unit]]s may not be built by hand and as a result Power Armor MK2 may not be built by hand from raw.
+Power armor MK2 is the strongest armor in the game, providing excellent resistance, sporting high health, and having a 10 by 10 grid for modules.
+
+'''See also:'''
+* [[Armor]]
+* [[Modular armor]]
+* [[Damage|Damage & resistances]]
+
+{{EquipNav}}
+
+[[Category:Items]]
+[[Category:Equipment]]
+[[Category:Combat]]#REDIRECT [[Iron Chest]]#REDIRECT [[Turret#Laser_Turrets]]#REDIRECT [[Passive Provider Chest]]{{languages}}
+{{Machinery
+|image=small-pump-prev.png
+|health=80
+|energy=30 kW electric
+|pollution=0.12
+|input=Time, 2 + Electric engine unit, 1 + Steel Plate, 1 + Pipe, 1
+|raw=Time, 46.5 + Iron Plate, 3 + Steel Plate, 2 + lubricant, 2 + copper plate, 4
+|technologies=Fluid handling
+|producers=Manual + Assembling machine 2 + Assembling machine 3
+}}
+A '''Small Pump''' (when powered) moves fluids from its input to its output and (regardless of power) prevents the opposite from happening. This happens even if the pressure of input is much lower than the pressure of output (although speed may be affected). Note that the pump can't mix different kinds of liquids.
+
+The small pump can be seen as the inserter for liquids.
+
+== Throughput (needed number of pumps) ==
+
+The throughput depends on the pressure difference between input and output.
+
+In the worst case (no input pressure, max output pressure) you need 5, better 6 small pumps, [http://www.factorioforums.com/forum/viewtopic.php?f=5&t=6066 to fill a pipe to its max throughput].
+
+== Using as Valve ==
+
+The small pump works as a valve:
+
+* When powered, the small pump will let liquids through, but only in its set direction. The throughput depends on the pressure, see above.
+: Tip: You can just rotate the pump to "switch a pipe off". This is sometimes handy.
+* If unpowered, the small pump doesn't let anything through.
+: This can be used to [[Automatic control|control]] some parts of your factory (but currently it is very complicated). 
+
+An example, which uses some useful properties of the pump, can be found [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=3724 on the forums].
+
+== See also ==
+* [http://www.factorioforums.com/forum/viewtopic.php?f=5&t=6066 Long distance pipes and pumps]
+* [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=7370 Controlling liquid consumption priority]
+* [[Liquid network]]
+
+{{MachineNav}}
+
+[[Category:Items]]
+[[Category:Liquid network]]{{Languages}}
+{{Machinery
+|health       =150
+|energy       =5.0 MJ electric
+|powerinout   =300 kW
+|input        =time, 10 + iron plate, 2 + battery, 5
+|technologies =electric energy accumulators 1
+|producers    =manual + assembling machine
+|consumers    =satellite
+}}
+
+The [[Basic accumulator]] stores a limited amount of energy when available production exceeds demand, and releases it in the opposite case. The basic accumulator stores up to 5 MJ of energy. Charge/Discharge rate is 300 kW maximum. 
+
+== Notes ==
+* 5MJ of stored energy take approximately 17s to fully charge/discharge at the maximum rate of 300kW. Read [[Game-second]] for further time related calculations.
+* When discharged above maximum speed by multiple unconnected poles, will distribute energy unequally (some may get 100% demand, others 0%)
+* May be used to provide limited amount of power (multiples of maximum charge rate) to a section of the grid
+* Produces light when charging and discharging
+* Can act as a emergency backup for your base in case of blackout, until main power supply is restored
+* Can be used to power the base at night if it relies heavily on [[solar panel]]s
+* Can act as a "surge protector" (if power usage of one device exceeds production for a few seconds or so, the basic accumulator will compensate for this and provide power to the grid until said device shuts down or requires a lesser power requirement)
+
+== See also ==
+* [[Electric network]]
+* [[Solar panel]]
+* [[Power production/Special accumulator usages]]
+* About [[Power production/Optimal ratios#Solar/Accu|calculating the optimal ratios for solar/accu]]
+* [[Power production/Dealing with priorities#How_to_switch_off_steam_engines_in_the_night.2C_when_enough_accumulator_capacity_is_available.3F|How to switch off steam engines in the night, when enough accumulator capacity is available?]]
+* [[Game-day]]
+
+== Examples ==
+[[File:electrical-network-example-2.png|frame|384px|High density accumulator array consisting of 48 basic accumulators and a [[Substation]] providing 240 MJ capacity.]]
+
+
+{{MachineNav}}
+
+[[Category:Items]]
+[[Category:Electric network]]{{languages}}
+{{Machinery
+|health       =100
+|poweroutput  =60 kW (full daylight)
+|input        =time, 10 + steel plate, 5 + electronic circuit, 15 + copper plate, 5
+|raw          =time, 28.8 + iron plate, 15 + copper plate, 27.5 + steel plate, 5
+|technologies =solar energy
+|producers    =manual + assembling machine 2 + assembling machine 3
+|consumers    =portable solar panel + satellite
+}}
+
+Solar panels are an infinite source of free energy while producing no pollution. During daylight hours every panel provides the maximum power level, 60kW. Generated power will increase/decrease linearly during dusk and dawn, and no power is produced at night. When placed, the Solar Panel takes up 9 spaces, in a 3x3 area.
+
+[[Basic accumulator]]s can be charged up during the day to power the base at night.
+
+[[File:Solar-Panel-0.9.8.png|thumb|350px|8 Solar Panels]]
+
+[[File:SolarPanelSetUp.png|350px|thumb|An efficient solar panel set up.]]
+
+== See also ==
+* [[Electric network]]
+* [[Basic accumulator]]
+* [[Power production/Special accumulator usages]]
+* About [[Power production/Optimal ratios#Solar/Accu|calculating the optimal ratios for solar/accu]]
+* An [http://www.factorioforums.com/forum/viewtopic.php?f=5&t=9314 Solar Power Excel sheet]
+* [[Power production/Dealing with priorities#How_to_switch_off_steam_engines_in_the_night.2C_when_enough_accumulator_capacity_is_available.3F|How to switch off steam engines in the night, when enough accumulator capacity is available?]]
+* [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=8949 The way I solar]
+* [[Game-day]]
+
+
+{{MachineNav}}
+
+[[Category:Items]]
+[[Category:Electric network]]{{Languages}}
+{{Machinery
+|health       =300
+|poweroutput  =510 kW
+|input        =time, 0.5 + iron gear wheel, 5 + pipe, 5 + iron plate, 5
+|raw          =time, 5.5 + iron plate, 20
+|producers    =manual + assembling machine 2 + assembling machine 3
+}}
+
+Steam engines are used to produce electricity.  They do this by taking in hot water and converting it into electricity.  Thus the hotter the water the more electricity can be produced.  If there is an overabundance of electricity then steam engines will reduce their production to match consumption.
+
+Hovering the mouse over a steam engine will display information for that particular steam engine: current production as well as maximum productivity.
+
+It is possible to chain multiple steam engines together as water will pass through them.  The current optimal ratio is 1 [[offshore pump]] : 14 [[boiler]]s : 10 [[steam engine]]s
+
+'''Steam engines themselves don't produce any pollution.''' ([[Boiler]]s do!)
+
+== Using other liquids? ==
+
+The steam engine can use any type of liquid to generate electricity. This can be used to get rid of unused oil-products. Just fill unusable oil products into a steam engine and it will destroy the liquids (cold liquids will be destroyed at a rate of [https://forums.factorio.com/viewtopic.php?p=144748#p144748 6.0 fluid / second]). It works the same as for cold water; you don't need to warm it. If you heat the liquid before that, the hot oil will produce electrical power, just like with hot water.
+
+But of course you should convert the unusable oil products into useables, instead of just making electricity out of it!
+
+See also [http://www.factorioforums.com/forum/viewtopic.php?f=6&t=7108 Oil Refinery RANT]
+
+[[File:electric-network.jpg|600px]]
+
+== Examples ==
+[[File:electrical-network-example-1.png|frame|384px|A basic modular power plant.]]
+<br clear="all"/>
+
+== See also ==
+* [[Electric network]]
+** [[Power Production]]
+* [[Power production/Special accumulator usages]]
+* About [[Power production/Optimal ratios|Calculation of good steam engine/boiler combinations]]
+* [[Power production/Dealing with priorities#How_to_switch_off_steam_engines_in_the_night.2C_when_enough_accumulator_capacity_is_available.3F|How to switch off steam engines in the night, when enough accumulator capacity is available?]]
+* [[Liquid network]]
+
+{{MachineNav}}
+
+[[Category:Items]]
+[[Category:Electric network]]
+[[Category:Liquid network]]{{languages}}
+{{Machinery
+|health=200
+|wirereach=14
+|supplyarea=14x14
+|input=Time, 0.5 + Steel Plate, 10 + Advanced Circuit, 5 + Copper Plate, 5
+|raw=Time, 58 + Iron Plate, 10 + Copper Plate, 30 + Steel Plate, 10 + Plastic bar, 10
+|technologies=Electric energy distribution 2
+|producers=Manual + Assembling machine
+}}
+Has the largest supply area of all of the electric poles and thus is very useful when a large area requires power.
+
+==See also==
+* [[Small electric pole]]
+* [[Medium electric pole]]
+* [[Big electric pole]]
+* [[Electric network]]
+
+[[Category:Items]]
+[[Category:Electric network]]{{Languages}}
+{{Machinery
+|health=150
+|wirereach=30
+|supplyarea=4x4
+|input=Time, 0.5 + Steel Plate, 5 + Copper Plate, 5
+|output=Big electric pole
+|technologies=Electric energy distribution 1
+|producers=Manual + Assembling machine
+}}
+The longest reaching electric pole and thus very useful for connecting far away locations to the main power grid.
+
+== See also ==
+* [[Small electric pole]]
+* [[Medium electric pole]]
+* [[Substation]]
+* [[Electric network]]
+
+[[Category:Items]]
+[[Category:Electric network]]{{Languages}}
+{{Machinery
+|health=100
+|wirereach=9
+|supplyarea=7x7
+|input=Time, 0.5 + Steel Plate, 2 + Copper Plate, 2
+|output=Medium electric pole
+|technologies=Electric energy distribution 1
+|producers=Manual + Assembling machine
+}}
+
+== See also ==
+* [[Small electric pole]]
+* [[Big electric pole]]
+* [[Substation]]
+* [[Electric network]]
+
+[[Category:Items]]
+[[Category:Electric network]]{{Languages}}
+{{Machinery
+|health=35
+|wirereach=7.5
+|supplyarea=5x5
+|input=Time, 0.5 + Wood, 2 + Copper cable, 2
+|output=Small electric pole, 2
+|raw=Time, 1.5 + Raw wood + Copper Plate
+|producers=Manual + Assembling machine
+}}
+This is the smallest possible utility pole, but it is also available from the beginning of the game.
+
+== See also ==
+* [[Medium electric pole]]
+* [[Big electric pole]]
+* [[Electric network]]
+
+{{MachineNav}}
+
+[[Category:Items]]
+[[Category:Electric network]]{{Languages}}
+{{Machinery
+|health    =80
+|input     =time, 0.5 + electronic circuit, 2 + pipe + iron gear wheel
+|raw       =time, 4 + iron plate, 5 + copper plate, 3
+|producers =Manual + assembling machine 2 + assembling machine 3
+}}
+The '''offshore pump''' is the only source of water. It is commonly used to provide steam to [[Steam engine|steam engines]] for power generation. The offshore pump itself requires no power to operate. (This is because, otherwise the game might fall into a serious deadlock: No coal, no electricity, no water...)
+
+Each offshore pump will produce a flow of 60 units of water per second, this is equal to the consumption of 10 steam engines per second. Thus if you wish to supply water to more than 10 steam engines at full output, you will need to use 2 or more offshore pumps per pipe.
+
+'''This is explained more in [[Power_production/Optimal_ratios#Hot_liquids|optimal ratios]]'''.
+
+
+==See also==
+* [[Electric network]]
+* [[Liquid network]]
+
+{{MachineNav}}
+
+[[Category:Items]]
+[[Category:Liquid network]]{{Languages}}
+{{Machinery
+|health       =55
+|energy       =5.0 kW electric
+|input        =time, 0.5 + electronic circuit + iron stick, 3 + iron plate
+|raw          =time, 2.5 + iron plate, 3.5 + copper plate, 1.5
+|technologies =optics
+|producers    =manual + assembling machine 2 + assembling machine 3
+}}
+
+[[File:lamp-example-1.png|thumb|256px]]
+The lamp is a basic electric device providing light to a small area at night.
+
+== See also ==
+* [[Electric network]]
+
+[[Category:Items]]
+[[Category:Electric network]]{{Languages}}
+{{Machinery
+|health=50
+|input=Time, 0.5 + Iron Plate, 1
+|output=Pipe, 1
+|producers=Manual + Assembling machine
+|consumers=Pipe-to-ground + Small Pump + Boiler + Steam engine + Oil refinery + Chemical plant + Engine unit + Rocket silo
+}}
+The pipe is a distribution method for [[Liquid network|liquids and gases]]. It is commonly used to provide water to [[Boiler]]s and steam to [[Steam engine]]s for power generation. Unlike [[transport belts]], [[player]]s and [[enemies]] can't walk over them.
+
+Only one fluid can be inside a pipe at one time. Trying to mix two fluids can destroy one of the fluids. Read more on [[Liquid network#Mechanics|liquid mechanics]].
+
+
+== See also ==
+* [[Electric network]]
+* [[Liquid network]]
+
+[[Category:Items]]
+[[Category:Liquid network]]#REDIRECT [[Requester Chest]]{{Languages}}
+{{Item
+|health       =200
+|input        =time, 0.5 + stone, 4 + iron stick, 4 + steel plate, 4
+|output       =curved rail, 2
+|raw          =time, 1.5 + stone, 4 + iron plate, 2 + steel plate, 4
+|technologies =railway
+|producers    =manual + assembling machine 2 + assembling machine 3
+|consumers    =
+}}
+
+A '''Curved rail''' element is used for building a track for [[Diesel_locomotive|trains]] in a [[Railway network]]. One element covers 1/8 of a full circle. Rotation enables building of all needed orientations.
+
+Optimal time/item usage: 1 [[Iron stick]] factory &rarr; 1 [[Curved rail]] factory.
+
+== Turns ==
+[[File:curved-rail-example-1.png|thumb|256px]]
+To build a 90 degree turn 2 [[Curved rail]]s and 1 [[Straight rail]] are needed. The [[Straight rail]] has to be placed in diagonal orientation to fill in the gap between the two [[Curved rail]]s.
+
+== See also ==
+* [[Straight rail]]
+* [[Diesel locomotive]]
+* [[Railway network]]
+
+[[Category:Items]]
+[[Category:Railway network]]{{Languages}}
+{{Machinery
+|health       =200
+|energy       =480 kW burner
+|supplyarea   =9
+|modules      =2
+|input        =time, 15 + electronic circuit, 20 + advanced circuit, 20 + steel plate, 10 + copper cable, 10
+|raw          =time, 273 + iron plate, 60 + copper plate, 135 + steel plate, 10 + plastic bar, 40
+|technologies =effect transmission
+|producers    =manual + assembling machine 2 + assembling machine 3
+|extra1       =<tr><td style="text-align:left;">Distribution Efficiency:</td><td>0.5</td></tr>
+}}
+
+A basic beacon is a device that transmits [[module]] effects to nearby machines. The effects are not transmitted with perfect efficiency. The effect on each machine is decreased compared to putting a module directly into the machine. However, a basic beacon allows you to transmit the effect of a module to multiple machines and the effect of all beacons around is added (it might make sense to use more beacons in a dense area). Additionally, beacons can add qualities beyond the normal effective module cap of an item, such as boosting a [[Pumpjack]]'s output at peak oil to .25 oil per cycle where, alone, it could only reach .2 yield.
+
+Currently, only [[Module#Speed_Module|speed]] and [[Module#Effectivity_Module|effectivity]] modules can be used in the basic beacon, and [[Module#Productivity Module|productivity]] modules cannot.
+
+[[File:factorio-beacon.png|thumb|384px|Basic beacon and 12 [[Electric furnace]]s affected by it.]]
+
+==See also==
+*[[Crafting network]]
+*[[Electric network]]
+*[[Modules]]
+
+[[Category:Items]]
+[[Category:Electric network]]
+[[Category:Crafting network]]{{Languages}}
+{{Item
+|health       =100
+|input        =time, 0.5 + stone + iron stick + steel plate
+|output       =straight rail, 2
+|raw          =time, 0.8 + stone + iron plate, 0.5 + steel plate
+|technologies =railway
+|producers    =manual + assembling machine 2 + assembling machine 3
+|consumers    =
+}}
+
+A '''Straight rail''' element is used for building a track for [[Diesel_locomotive|trains]] in a [[Railway network]]. Rotation enables building of horizontal, vertical and diagonal tracks.
+
+Optimal time/item usage: 1 [[Iron stick]] factory &rarr; 4 [[Straight rail]] factories.
+
+== See also ==
+* [[Curved rail]]
+* [[Diesel locomotive]]
+* [[Railway network]]
+
+[[Category:Items]]
+[[Category:Railway network]]{{Languages}}
+{{Machinery
+|health        =1000
+|storage       =3 (Fuel Only)
+|energy        =600 kW burner
+|pollution     =
+|input        =time, 0.5 + steel plate, 30 + electronic circuit, 10 + engine unit, 20
+|raw          =time, 436.8 + iron plate, 30 + copper plate, 15 + steel plate, 50
+|technologies =Railway
+|producers    =Manual + Assembling machine 2 + Assembling machine 3
+|consumers    =
+}}
+Note that [[Engine unit]]s are built in [[Assembling machine]]s and as a result the Diesel locomotive may not be built from raw by hand.
+
+The [[Diesel locomotive]] is currently the only engine for movement of [[Railway network|trains]]. It can be used for transportation of large amounts of items over large distances. After laying the [[Railway network#Tracks|track]] form a [[Railway network|train]], fuel the locomotive and drive yourself or do an automatic transportation using [[Train stop]]s.
+
+Despite the name, it can take any [[fuel]] (including [[Raw wood]] or [[Coal]]), not just oil-derived types.
+
+== Trains ==
+[[File:train-example-1.png|thumb|256px]]
+To form a train you have to place a locomotive and one [[Cargo wagon]] minimum. To connect them to a train you may either simply place the stock car next to the locomotive via a green outlined connection, or if the stock car is already unconnected, you have to drive the locomotive near the [[Cargo wagon]] and press "G"(default) to connect rolling stock. To disconnect the last wagon in the train press "V"(default).
+
+{| class="wikitable"
+! Locomotive !! [[Storages/Stack|Stacks]]
+|-
+| {{imagelink|diesel-locomotive|Diesel locomotive}} || 3 (for [[Fuel]] only)
+|-
+|}
+
+== Driving a train ==
+
+* [[Vehicle/Train/Driving]]: When you enter a train (press [[Game-Options/Default-Keys#Enter|Enter-Key]] to enter), you can drive it.
+* You can use the locomotive as a personal transport. This is a preferable option in the later stages of the game due to the high speed of trains.
+
+== (Re)fueling a train ==
+
+* [[Vehicle/Train/Refueling]]: Trains need [[Fuel]] to run. See basics, how to fill it into the locomotive.
+
+== Directions ==
+
+* [[Vehicle/Train/Reverse driving]]: In automatic mode a train can run only in the direction the locomotive is currently programmed to go to.
+* It is important to note that your [[Train Station]]s and [[Train Signals]] should always be on the right side of where you expect the train to go. Trains which go both directions on the same rail will require signals on both sides.
+
+== Larger Train Processions ==
+
+* [[Vehicle/Train/Wagon]]: A wagon is like a rolling chest, allowing one to move material from train stop to train stop. It additionally has a larger world model size, allowing more inserters to work at once.
+
+== Other things ==
+
+*As trains are a priority target of [[Enemies]], more or less any place where trains can stop should be [[Defense|defended]]. This is of course more important at train stops/stations, due to the additional hardware which may be present. Note that defending a train in transit is not as important, as when a train moves it is more or less invincible and crashes through everything in the way, up to and including [[Biter]]s, [[Tank]]s, and the Player. However, [[Enemies]] can attack and destroy rails, potentially stopping the train in transit and leading to the train being damaged or destroyed.
+
+*For the eventuality that one's train is damaged somehow, put a [[Robotic network]] with [[Construction robot]]s and some [[Repair pack]]s at a train station, so that any eventual damage is repaired. The Player may alternatively check their train network often to ensure it remains free of serious harm.
+
+==See also==
+* [[Cargo wagon]]
+* [[Railway network]]
+
+{{C|Train}}
+{{C|Vehicle}}
+{{C|Railway network}}
+{{C|Items}}#REDIRECT [[Smart Chest]]#REDIRECT [[Storage tank]]{{Machinery
+|health       =80
+|input        =time, 0.5 + electronic circuit + iron plate, 5
+|raw          =time, 1.8 + iron plate, 6 + copper plate, 1.5
+|technologies =rail signals
+|producers    =manual + assembling machine 1 + assembling machine 2 + assembling machine 3
+}}
+
+'''Rail chain signals''' are used for automated transportation on a [[railway network]]. With rail signals it is possible to use multiple trains on a single track.
+
+==See also==
+* [[Rail signal]]
+* [[Railway network]]
+
+[[Category:Items]]
+[[Category:Railway network]]#REDIRECT [[Wooden Chest]]{{Languages}}
+{{Machinery
+|health       =100
+|energy       =90 kW electric
+|miningpower  =2
+|miningspeed  =1
+|miningarea   =1
+|pollution    =9
+|modules      =2
+|input        =Time, 20 + Steel Plate, 15 + Iron Gear Wheel, 10 + Electronic Circuit, 10 + Pipe, 10
+|raw          =Time, 42.5 + Iron Plate, 40 + Copper Plate, 15 + Steel Plate, 15
+|technologies =Oil processing
+|producers    =Manual + Assembling machine 2 + Assembling machine 3
+}}
+
+'''Pumpjacks''' extract [[Crude Oil|crude oil]] from [[Oil field|oil fields]]. Each [[oil field|oil field]] can be covered by only one pumpjack at a fixed spot. The pumpjack will then output an amount of crude oil per cycle equal to 1.0 multiplied by the field's yield (e.g. 5.4 crude oil for 538% yield) per second. Without speed modules one pumpjack cycle takes one second to complete. 
+
+Extracting oil lowers the field's yield by 1% per 75 pumpjack cycles to a minimum of 10%.
+
+Pumpjacks are limited to an maximum output of 10.0 crude oil per cycle, achieved by an oil field with more than 999% yield.
+
+Pumpjacks output tile location is fixed relative to its orientation.
+
+== Tips ==
+If oil fields are depleted ( to the minimum of 10% ) speed [[Module]]s are a good option to raise the pumpjacks output. With two [[Speed module 3]]'s the output doubles from 0.1 to 0.2 crude oil per second and even more when using additional [[Basic beacon]]s ( 0.25 oil per second ).
+
+== See also ==
+* [[Liquid network]]
+
+{{MachineNav}}
+
+
+[[Category:Items]]
+[[Category:Liquid network]]#REDIRECT [[Oil refinery]]#REDIRECT [[Chemical plant]]{{languages}}
+{{Machinery
+|health       =5,000
+|energy       =4.0 MW electric
+|technologies =rocket silo
+|input        =time, 30 + steel plate, 1000 + concrete, 1000 + pipe, 100 + processing unit, 200 + electric engine unit, 200
+|raw          =time, 21480 + iron plate, 5500 + steel plate, 1200 + sulfuric acid, 100 + plastic bar, 800 + heavy oil, 400 + copper plate, 8800  + concrete, 1000
+|producers    =manual + assembling machine 3
+}}
+The '''Rocket Silo''' is currently the only win condition.  Once the silo has been built and placed it can be filled with [[low density structure]]s, [[rocket fuel]], and [[rocket control unit]]s which will allow [[rocket part]]s to be created within the silo.  When all rocket parts have been completed the rocket silo interface will be at 100% and allow the player to input a [[satellite]] component.  Launching the rocket with a satellite will complete the game and a win menu will be displayed asking the player to exit the current game, continue, or view the replay.
+
+Building a silo requires, among other things, [[Electric engine unit]]s, [[Engine unit]]s, and [[Processing unit]]s, which must be produced in [[assembling machine]]s and cannot be crafted by hand from raw.
+
+== See also ==
+* [[rocket defense]] (the previous win condition)#REDIRECT [[Storage Chest]]{{Languages}}
+{{Machinery
+|image=Smart-Inserter-Between-Chests
+|health=40
+|energy=44 kW electric
+|drain= 400 W electric
+|extra1=Can filter items. Can be connected to circuit network.
+|input=Time, 0.5 + Fast inserter + Electronic Circuit, 4
+|raw=Time, 10.8 + Iron Plate, 12 + Copper Plate, 10.5
+|technologies=Electronics
+|producers=Manual + Assembling machine
+|consumers=Manual + Assembling machine 2 + Assembling machine 3
+}}
+
+More advanced electric inserter. In most cases, the smart inserter will be used to stop production of an item after a certain condition is met (e.g. enough items), when configured as output on an assembly.
+
+== Usage ==
+
+Works at the same speed as a [[fast inserter]]. It needs to be configured to work. Configuration is done by opening the inserter interface (right mouse).
+
+=== Wiring ===
+When used for [[Circuit network]] this needs to be wired: 
+:[[File:Easy_wired_logistic_set_up.gif]]
+You can use the copy/paste (Shift-RMB for copy and Shift-LMB for paste) to copy the conditions and the connected wire.
+
+The pole needs to be in wiring-reach and and you need to have wires in your inventory.
+
+=== Configuration ===
+
+:[[File:34hvpew.png|300px]]
+The smart inserter interface has two parts: the "filter" and the "condition".
+
+==== Filter part ====
+:[[File:Mpstark-UlSB2pr.gif]]
+If used (you are not forced to use the filter, it works also by using only the condition part!), the smart inserter moves only items which are in this filter. Up to five items can be filtered.
+
+The inserter will then pick up only "filtered" items from a belt or other stacks (chests, assemblers, etc.). For example, if a belt contains iron and copper plates, and filter is set to iron plate, the inserter will take only iron plates, and won't touch copper plates.
+
+==== Condition part ====
+:[[File:smart_inserter.png|thumb|300px|Example condition: "Work only if the count of [[Iron plate]]s is lower than the amount of [[Steel plate]]s." Instead of the steel plate you can use a constant value.]]
+This switches the smart inserter on/off. It will work only if all set conditions are true; see below.
+
+Condition could be based on
+* red/green circuit (the first two lines, but you need to connect red/green wire to the inserter first!)
+  and/or
+* logistic network (the last line, but you need a Roboport and the inserter must be inside of the logistic area).
+
+The condition part needs three parameters, which can be changed by just clicking in the interface:
+* item-type (or [[Automatic control/Smart bus#Signals|bus-signal-type]])
+* operator (greater than, lower than and equal are possible)
+* value (you can use the slider or type in any positive number)
+
+===== Typical use: Limit input/output of assembly machine ===== 
+
+If the circuit and/or logistic network contains < X items of this type then load (more common: unload) an assembly machine.
+
+As soon as X items are in the network, the assembly machine is not loaded/unloaded any more.
+
+'''Untested:''' Usually it's easier to limit output/unload (and not the loading), so items are not removed from assembly machine and when internal storage of the assembler is full it will stop producing. This is in most cases a bit better, because it doesn't clog.
+
+There are some '''[[Circuit_network#Examples|examples]]''' in the forum, which will show you some of the common and not so common usages.
+
+===== See also =====
+
+Please refer to the [[Circuit network]] to see more.
+
+==== Using both ====
+Finally you can use both, filter and condition, so it will only move items of one type if there are less/more than X items of that type in the logistic network (or wires).
+
+== Not working by default ==
+This device works only if
+* it has a filter set '''and/or'''
+* it is connected to a [[Circuit network]] and/or [[Logistic network]].
+
+When connected to a network, it begins to work immediately, because the "no condition" is a valid condition.
+
+== More than one condition ==
+
+Set one or more conditions, and the inserter will follow the instructions by combining it with logical 'AND'.
+
+== See also ==
+* [[Transport network]]
+* [[Electric network]]
+* [[Inserters]]
+
+{{MachineNav}}
+
+[[Category:Items]]
+[[Category:Transport network]]
+[[Category:Electric network]]
+[[Category:Circuit network]]
+[[Category:Inserters]]#REDIRECT [[Pipe-to-Ground]]{{Languages}}
+Assembling machines are used to automate the manufacturing of products through the use of an [https://wiki.factorio.com/index.php?title=Assembly_loops assembly loop]. To begin, the player provides the needed ingredients and [[Electric network|power]]. Some recipes require liquids, in which case a [[pipe]] will have to be placed on the side of the machine. Once the machine has everything it needs, production will begin. Finished products can then be extracted by [[Inserters]] on to transport belts or into chests, trains or other storage. More advanced assembling machines use more power but are capable of manufacturing products with a higher quantity of ingredients, at a faster speed, and can fit higher amounts of [[Module]]s. Assembly machines have very limited internal storage for finished products but can store a stack of each ingredient. If the finished products fill up the output slot, the entire machine will stop- making it essential to automate removing components as well! Also note that Inserters only add enough solid materials to create two new items, though the player can manually insert more at their leisure.
+
+== Types ==
+{| class="wikitable"
+! Item !! Total raw !! Max Ingred. !! Max power !! Speed !! Module slots
+|-
+| {{imagelink|assembling-machine-1|Assembling machine 1}} || {{icon|iron-plate|22|Iron plate}} {{icon|copper-plate|4.5|Copper plate}} || 2 || 90 W ([[Electric network|electric]]) || 0.5 || 0
+|-
+| {{imagelink|assembling-machine-2|Assembling machine 2}} || {{icon|iron-plate|44|Iron plate}} {{icon|copper-plate|9|Copper plate}} || 4 || 150 W ([[Electric network|electric]]) || 0.75 || 2
+|-
+| {{imagelink|assembling-machine-3|Assembling machine 3}} || {{icon|iron-plate|148|Iron plate}} {{icon|copper-plate|148|Copper plate}} {{icon|plastic-bar|40|Plastic bar}} || 4 || 210 W ([[Electric network|electric]]) || 1.25 || 4
+|-
+|}
+
+== Interface ==
+[[File:choose-recipe-gui.png|thumb|256px|"Choose recipe" gui when open assembling machine menu for first time or when changing recipe.]]
+
+When the assembling machine is placed and opened for the first time, the player must choose the item it should create. This can be changed at any time by clicking the "Set recipe" button, next to the requirements area for creating new product.
+
+Afterwards you can open the following GUI by left clicking on an assembling machine.
+
+[[File:assembling-machine-gui.png|384px|Assembling machine menu.]]
+# Ingredients for currently selected recipe and stock
+# "Set recipe" button
+# Current crafting progress
+# Finished products
+# Module slots (only in [[Assembling machine 2]] and higher)
+# Current productivity progress, when filled up the output of the current recipe is stored without crafting and consuming ingredients (only when [[Modules|Productivity modules]] are used)
+
+
+== Input of fluids ==
+[[File:Assembling-machine-pipe.png|thumb|256px]]
+Certain recipes require fluids to be used. When such a product is selected, a pipe automatically appears on the Assembling Machine. Only tier 2 and better machines are capable of this. The pipe's position can be changed by rotating the machine.
+
+== See also ==
+* [[Crafting network]]
+* [[Electric network]]
+* [[Belt transport system]]
+
+{{MachineNav}}
+
+[[Category: Items]] [[Category: Crafting network]] [[Category: Electric network]]#REDIRECT [[Active Provider Chest]]#REDIRECT [[Turret]]{{Languages}}
+{{Machinery
+|health=150
+|energy=60 kW electric
+|input=Time, 5 + Transport Belt, 4 + Iron Gear Wheel, 10 + Electronic Circuit, 10
+|raw=Time, 24.5 + Iron Plate, 36 + Copper Plate, 15
+|producers=Manual + Assembling machine 2 + Assembling machine 3
+}}
+'''Labs''' are buildings which perform [[research]] by consuming [[science packs]].
+
+==Tips & Tricks==
+Labs work fairly slow, so it is a good idea to have multiple labs working at the same time.
+Once one's [[science packs]] production is automated they should try to get as many labs in a row as they can before the labs consume materials too quickly to be used.
+
+==See also==
+* [[Electric network]]
+* [[Crafting network]]
+
+{{MachineNav}}
+
+{{C|Items}}
+{{C|Electric network}}
+{{C|Technology}}{{Languages}}
+{{Machinery
+|name = Radar
+|icon	= radar
+|health       =150
+|energy       =300.0 kW electric
+|input        =time, 0.5 + electronic circuit, 5 + iron plate, 10 + iron-gear-wheel, 5
+|raw          =time, 9.3 + iron plate, 25 + copper plate, 7.5
+|producers    =manual + assembling machine 2 + assembling machine 3
+}}
+The radar is used to remotely explore a large piece of the map and to provide a smaller area of remote vision on the player's map. It is has a high [[Electric network|power]] demand of 300kW so a radar indirectly creates more [[Pollution]] when powered by [[Boiler]]s and steam engines, which attracts more biters. The radar will be attacked by enemies that come within very close range like turrets, but will not attract biters from long range like polluting structures do. See [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=6008&p=53660#p53660 Let's see your clever builds].
+
+The radar continuously scans a nearby 7x7 area to provide constant monitoring of nearby enemies, but will also slowly explore a much larger 29x29 chunk area. It will show enemy lifeforms and structures, as well as trains, cars, and other players in the scanned area.
+
+== Nearby Pulse Scanning ==
+
+Radar continuously scans a 7x7 [[Chunk]] (224x224 [[Tile]]s), centered on the chunk the radar occupies. This nearby area is updated as a single pulse approximately every second. At reduced power levels this nearby pulse scan will take longer, which can lead to 'blinking' on the player's map similar to the long range scan. This is particularly noticeable at dawn and dusk on solar powered radar stations. 
+
+At 20% power the radar will pulse about every 4 seconds which will still keep the nearby area continuously lit on the map, but will provide reduced detail on incoming waves of aliens. 20% power can be achieved by a single solar panel, or by using one isolating accumulator for every 5 radars. Reduced power also slows down the long-range scan.
+
+== Long Range Survey Scanning ==
+
+Radars explore (= scan) one far away [[Chunk]] every time the sector scanning progress bar fills, about every ~33.5 (?) seconds at full power. Mouse-over or click-open the radar details to see this progress bar. Long range scanning is visible on the map as a single chunk lighting up for several seconds, then slowly darkening.
+
+* It scans the unexplored country first, represented by pitch black areas on the map.
+* This is done in an 29*29 chunks around the Radar, excluding the nearby 7x7 chunk.
+* If everything is already explored it continues to scan by re-scanning the oldest scanned chunk within range; one of the long range 'darkened' chunks on the map.
+* Multiple additional radars will smartly share long-range chunks, reducing the amount of time it takes to complete the long-range survey scan.
+
+'''It is possible, that the natives will build a new nest or village, while you are not scanning the area. Don't be surprised!
+
+'''So it is always possible, to stack more radars, to get more frequent update of the surrounding area.
+
+== See also ==
+* [[Electric network]]
+* [[Enemies]]
+* [http://www.factorioforums.com/forum/viewtopic.php?f=5&t=3362 long term radar behavior].
+* [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=3925 Self sufficient radar outpost].
+* [http://www.factorioforums.com/forum/viewtopic.php?f=18&t=5793 Self defending independent radar layout].
+
+[[Category: Items]] [[Category: Electric network]] [[Category: Weapons]]#REDIRECT [[Steel Chest]]{{Languages}}
+{{Machinery
+|health        =600
+|storage       =30
+|energy        =
+|pollution     =
+|input        =time, 0.5 + iron plate, 20 + steel plate, 20 + iron gear wheel, 10
+|raw          =time, 5.5 + iron plate, 40 + steel plate, 20
+|technologies =Automated rail transportation
+|producers    =Manual + Assembling machine 2 + Assembling machine 3
+|consumers    =
+}}
+The [[Cargo wagon]] is used in conjuction with [[Diesel locomotive]]s to form trains for the [[Railway network]].
+
+Please look into [[Vehicle/Train/Wagon]] for general information about this.
+
+A wagon is used to transport items by train and can be filled/unfilled at [[Railway network/Train station|train stations]] like a chest, but with many more inserters at the same time. Up to 12 (or 14?) inserters per wagon are possible (from both sides).
+The [[Inserter item stack size]] is important to fill the wagon fast!
+
+== Stack limitation ==
+
+Wagons have a [[Storage/Stack#Stack limitation|stack limitation]]. Use it to limit the number of items, that can be inserted. This is useful, if you want to limit the number of transported items for some cases.
+
+== Stack filter ==
+
+Each stack in the cargo wagon can be filtered. This works in the same way as with your quick bar (the toolbelt), default is pressing middle mouse button.
+
+This can be used to transport some different items in one wagon, without overfilling it. Best example is for transporting empty and full oil barrels in one wagon and at the train stations the barrels are exchanged by smart inserters.
+
+See for example [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=68288&p=53467&hilit=Filter#p53467 Tired of babysitting expansions? Auto-supply w/ trains!].
+
+== Compressing items ==
+
+A cargo wagon can be filled with 1500 items of ores ([[Copper ore|copper]], [[Iron ore|iron]], [[Coal|coal]]...) or 3000 item of processed plates ([[Copper plate|copper plates]], [[Iron plate|iron plates]], [[Steel bar|steel]]), which makes it a eventually a useful strategy to process the iron "in place", where you mine it, before you transport it to your factory. There are also [[Transport/Compress by Pre-production|other strategies of compressing the cargo before load]].
+
+== Positions of wagons and inserters ==
+
+The wagons can be filled/emptied at [[Railway network/Train station|train stations]] and you need to keep in mind, that the [[Railway network/Train station/Positions|inserter positions]] differs a bit, depending on, if you load vertical or horizontal.
+
+== Using as big chest ("multi-inserter chest") ==
+
+It is possible to use the cargo wagon as a "big chest": Place rails, put a wagon on it and inserters around. The advantage of this construction is
+* you can feed/unload the wagon with much more inserters (from/to a belt), and from here into/from another stack based system (a chest, assembly). This goes around the limitations of [[Inserter item stack size bonus|inserter stack size bonus]].
+* You can "transport" items over up to 14 (?) tiles (size of wagon plus length of long arm inserters).
+See
+* [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=3537 Solar panel factory]
+* [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=7568 Cargo wagon sourced RGB circuits production facility]
+* [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=8551 Mass production with ZERO belts and robots]
+
+http://www.factorioforums.com/forum/viewtopic.php?f=8&t=3537
+
+Using the wagon as storage chest enables to have more throughput at small space:
+:[[File:PanelAM2b.jpg|600px|]]
+
+Here in detail how this works: Many inserters put items into the wagons and only some out. This is only possible because [[Inserter_item_stack_size]] is researched
+:[[File:FeedingAM2.png|400px]]
+
+This is an attempt to use a fully upgrade assembly3 with speed modules, but this isn't able to feed quick enough.
+:[[File:PanelAM3maxSpeed.png|400px]]
+
+==See also==
+* [[Diesel locomotive]]
+* [[Railway network]]
+* [[Vehicle/Train/Wagon]]
+* [[Vehicle/Train/Locomotive]]
+
+{{C|Items}}
+{{C|Railway network}}
+{{C|Vehicle}}{{Languages}}
+{{Machinery
+|health       =80
+|input        =time, 0.5 + electronic circuit + iron plate, 5
+|raw          =time, 1.8 + iron plate, 6 + copper plate, 1.5
+|technologies =rail signals
+|producers    =manual + assembling machine 1 + assembling machine 2 + assembling machine 3
+}}
+
+'''Rail signals''' are used for automated transportation on a [[railway network]]. With rail signals it is possible to use multiple trains on a single track.
+
+==See also==
+* [[Railway/Signal/Block_signal|Rail signal explanation]]
+* [[Rail chain signal]]
+* [[Railway network]]
+
+[[Category:Items]]
+[[Category:Railway network]]{{Languages}}
+{{Machinery
+|health       =150
+|input        =time, 0.5 + electronic circuit, 5 + iron plate, 10 + steel plate, 3
+|raw          =time, 6.8 + iron plate, 15 + copper plate, 7.5 + steel plate, 3
+|technologies =automated rail transportation
+|producers    =manual + assembling machine 2 + assembling machine 3
+}}
+
+'''Train stops''' are used to automate item transportation by trains by providing nameable locations for trains to travel to.
+
+==See also==
+* [[Railway network]]
+* [[Diesel locomotive]]
+
+[[Category:Items]]
+[[Category:Railway network]]{{Languages}}
+{{Machinery
+|image=Steel furnace on the map
+|health=200
+|energy=180 kW burner
+|craftingspeed=2
+|pollution=3.6
+|input=Time, 3 + Steel Plate, 8 + Stone Brick, 10
+|technologies=Advanced material processing
+|producers=Manual + Assembling machine
+}}
+'''Steel Furnaces''' are the second-tier of furnaces. Compared to [[Stone Furnace]]s, they smelt at double the speed and therefore are a more efficient use of the given fuel. Steel Furnaces are comparable to [[Electric Furnace]]s in terms of smelt speed, however the latter can make use of modules (as well as [[Electric system | Electricity]]) to further enhance the furnace's capabilities. 
+
+== Interface ==
+[[File:furnace-gui.png|256px|Interface of a [[Steel furnace]](same as [[Stone furnace]]).]]
+# [[Items#resources|Resources]] and stock
+# Current smelting progress
+# Finished products
+# Current [[Fuel]], remaining stock, and time when next item is removed from stock.
+
+{{MachineNav}}
+
+{{C|Items}}
+{{C|Crafting network}}{{Languages}}
+{{Machinery
+|image=Electric furnace on the map
+|health=150
+|energy=180 kW electric
+|craftingspeed=2
+|drain=6 kW electric
+|modules=2
+|pollution=0.9
+|input=Time, 5 + Steel Plate, 15 + Stone Brick, 10 + Advanced Circuit, 5
+|raw=Time, 62.5 + Iron Plate, 10 + Copper Plate, 25 + Steel Plate, 15 + Stone Brick, 10 + Plastic bar, 10
+|technologies=Advanced material processing 2
+|producers=Manual + Assembling machine 2 + Assembling machine 3
+}}
+
+'''Electric furnaces''' provide 2 module slots which make them more flexible for special purposes. The use of [[Electric network|electrical power]] makes them independent from a direct power source, but the huge heating devices take some extra space, which makes the electric furnace slightly bigger than the burner furnaces.
+
+Due to rather big energy cost of using electric furnaces, it is a great idea to insert [[Module|Effectivity Modules]] into them. This is often more cost-efficient than providing all that power with [[Solar panel]]s.
+
+[[File:electric-furnace-gui.png|thumb|left|256px|The interface of an electric furnace.
+<ol>
+<li>[[Items#resources|Resource]] and stock</li>
+<li>Current smelting progress</li>
+<li>Finished products</li>
+<li>Productivity bonus progress bar (visible when a [[Module|productivity module]] is inserted)</li>
+<li>Module slots</li>
+</ol>
+]]
+<br clear=all>
+
+== See also ==
+* [[Transport network]]
+* [[Electric network]]
+
+----
+{{MachineNav}}
+
+{{C|Items}}
+{{C|Crafting network}}
+{{C|Electric network}}{{Languages}}
+{{Machinery
+|health        =150
+|energy        =180 kW burner
+|craftingspeed =1
+|pollution     =1.8
+|input         =Time, 0.5 + Stone, 5
+|producers     =Manual + Assembling machine
+|consumers     =boiler + burner mining drill
+}}
+A '''Stone furnace''' is the most basic smelting machinery, providing a cheap and reliable source of basic products like [[iron plate]]s and [[copper plate]]s.
+
+== Interface ==
+[[File:furnace-gui.png|256px|Interface of a [[Steel furnace]] (same as [[Stone furnace]]).]]
+# [[Items#resources|Resources]] and stock
+# Current smelting progress
+# Finished products
+# Current [[Fuel]], remaining stock, and time when next item is removed from stock.
+
+{{MachineNav}}
+
+[[Category:Items]]
+[[Category:Crafting network]]{{Languages}}
+{{Machinery
+|image=Electric-Mining-Drill-Example
+|health=300
+|energy=90 kW electric
+|miningpower=3
+|miningspeed=0.5
+|miningarea=5
+|pollution=9
+|modules=3
+|input=Time, 2 + Iron Plate, 10 + Iron Gear Wheel, 5 + Electronic Circuit, 3
+|raw=Time, 8.3 + Iron Plate, 23 + Copper Plate, 4.5
+|producers=Manual + Assembling machine 2 + Assembling machine 3
+}}
+The [[Electric mining drill]] mines out [[Iron ore]], [[Copper ore]], [[Stone]] and/or [[Coal]], and places it in front of the output tile, on a conveyor or in a machine/chest that covers the output tile.
+
+The machine is 3x3, but mines in a 5x5 area, extending 1 tile away on each side.
+Mines copper, iron and coal at a rate of 0.525/s and stone at a rate of 0.65/s
+
+
+== See also ==
+* [[Electric network]]
+
+{{MachineNav}}
+
+{{C|Items}}
+{{C|Electric network}}
+{{C|Crafting network}}{{Languages}}
+Modules are items used to enhance existing buildings' capabilities. They are expensive, require appropriate research and are produced slowly, but can eventually greatly improve the efficiency of a factory.
+
+:If you want more products per second, use a speed module.
+:If you want more products per input resource, use a productivity module.
+:If you want more products per watt of energy, use an efficiency module.
+
+In addition to improving the efficiency of the factory, modules are also used in many late- and endgame recipes such as modular armor and its equipment.
+
+
+[http://www.factorioforums.com/forum/viewtopic.php?f=18&t=7985 Do Efficiency Modules Reduce Pollution?]
+
+
+=== Required research ===
+
+{|
+| {{icontech|module||Modules}} [[Modules]]
+|-
+| {{icontech|effectivity-module||Efficiency module (research)}} [[Efficiency module (research)|Efficiency module]]
+|-
+| {{icontech|productivity-module||Productivity module (research)}} [[Productivity module (research)|Productivity module]]
+|-
+| {{icontech|speed-module||Speed module (research)}} [[Speed module (research)|Speed module]]
+|-
+|}
+
+=== Recipes ===
+
+{| class="wikitable"
+| '''Recipe:''' || {{icon|advanced-circuit|5|Advanced circuit}} + {{icon|electronic-circuit|5|Electronic circuit}} + {{icon|time icon|15|time}} => {{icon|speed-module|1|Speed module 1}} or {{icon|productivity-module|1|Productivity module 1}} or {{icon|effectivity-module|1|Efficiency module 1}}
+|-
+| '''Total raw:''' || {{icon|copper-plate|32.5|Copper plate}} {{icon|iron-plate|15|Iron plate}} {{icon|plastic-bar|10|Plastic bar}}
+|}
+
+{| class="wikitable"
+| '''Recipe:''' || {{icon|advanced-circuit|5|Advanced circuit}} {{icon|processing-unit|5|Processing Unit}} + ({{icon|speed-module|4|Speed module 1}} or {{icon|productivity-module|4|Productivity module 1}} or {{icon|effectivity-module|4|Efficiency module 1}}) + {{icon|time icon|30|time}} => {{icon|speed-module-2|1|Speed module 2}} or {{icon|productivity-module-2|1|Productivity module 2}} or {{icon|effectivity-module-2|1|Efficiency module 2}}
+|-
+| '''Total raw:''' || {{icon|copper-plate|355|Copper plate}} {{icon|iron-plate|190|Iron plate}} {{icon|plastic-bar|70|Plastic bar}} {{icon|sulfuric-acid|2.5|Sulfuric Acid}}
+|}
+
+{| class="wikitable"
+| '''Recipe:''' || {{icon|advanced-circuit|5|Advanced circuit}} {{icon|processing-unit|5|Processing Unit}} + {{icon|speed-module-2|4|Speed module 2}} + {{icon|alien-artifact|1|Alien artifact}} + {{icon|time icon|60|time}} => {{icon|speed-module-3|1|Speed module 3}}
+|-
+| '''Total raw:''' || {{icon|copper-plate|1645|Copper plate}} {{icon|iron-plate|890|Iron plate}}  {{icon|plastic-bar|310|Plastic bar}} {{icon|sulfuric-acid|12.5|Sulfuric Acid}} {{icon|alien-artifact|1|Alien artifact}} => {{icon|speed-module-3|1|Speed module 3}}
+|}
+
+{| class="wikitable"
+| '''Recipe:''' || {{icon|advanced-circuit|5|Advanced circuit}} {{icon|processing-unit|5|Processing Unit}} + ( {{icon|productivity-module-2|5|Productivity module 2}} or {{icon|effectivity-module-2|5|Efficiency module 2}} ) + {{icon|alien-artifact|1|Alien artifact}} + {{icon|time icon|60|time}} => {{icon|productivity-module-3|1|Productivity module 3}} or {{icon|effectivity-module-3|1|Efficiency module 3}}
+|-
+| '''Total raw:''' || {{icon|copper-plate|2000|Copper plate}} {{icon|iron-plate|1080|Iron plate}}  {{icon|plastic-bar|380|Plastic bar}} {{icon|sulfuric-acid|15|Sulfuric Acid}} {{icon|alien-artifact|1|Alien artifact}} => {{icon|effectivity-module-3|1|Efficiency module 3}} or {{icon|productivity-module-3|1|Productivity module 3}}
+|}
+
+=== Speed Module ===
+Used in many [[Modular armor]] recipes.
+
+{| class="wikitable"
+|-
+! Level !! Speed bonus !! [[Energy]] consumption
+|-
+| 1 || +20% || +50%
+|-
+| 2 || +30% || +60%
+|-
+| 3 || +50% || +70%
+|-
+|}
+
+=== Productivity Module ===
+Productivity modules add a second "production bar" at item producing buildings and labs. It fills at the speed of (production - 100%). When it reaches 100%, an extra item (or items, in recipes that result in more than one) is produced.
+
+Productivity modules can only be used to make [[Items#Intermediate products|intermediate products]]. These are products that cannot directly be placed, but are used in other recipes. Examples include circuits, science Packs and engine units.
+
+
+Productivity modules have some '''[[Module/Productivity module limitations|usage limitations]]!
+
+{| class="wikitable"
+|-
+! Level !! Productivity !! [[Electricity]]<br/> consumption !! Speed !! [[Pollution]]<br/> multiplier
+|-
+| 1 || +4% || +40% || -15% || +30%
+|-
+| 2 || +6% || +60% || -15% || +40%
+|-
+| 3 || +10% || +80% || -15% || +50%
+|-
+|}
+
+Don't be fooled by the extra energy consumption! The energy consumption is each second, but the decrease in speed makes this worse per product made. Eventually energy is "free" because of solar energy and accumulators, but there is a limit to how much consumption is practical. The energy consumption per product made is bigger than the simple "+consumption" stat would make you think, but in a likewise unintuitive way, adding speed modules by [[Basic Beacon]] is better than expected. While speed modules strictly add energy consumption, their effect on speed counters this.
+
+{| class="wikitable"
+|-
+! Level !! Productivity !! [[Electricity]]<br/> consumption !! Speed !! Energy/<br/>Unit !! Units/<br/>time
+|-
+| Assembling Machine 3    || 100% ||  100% || 100% || 100% || 100% 
+|-
+| +1 productivity 3 chip  || 110% ||  180% || 85%  || 193% || 93.5% 
+|-
+| +2 productivity 3 chips || 120% ||  260% || 70%  || 310% || 84%   
+|-
+| +3 productivity 3 chips || 130% ||  340% || 55%  || 476% || 71.5% 
+|-
+| +4 productivity 3 chips || 140% ||  420% || 40%  || '''750%''' || '''56%'''
+|-
+| +4 productivity 3 chips<br/> +1/2 speed 3 chip || 140% || 455% || 65%  || 500% || 91%
+|-
+| +4 productivity 3 chips<br/> +2/2 speed 3 chip || 140% || 490% || 90%  || 389% || 126% 
+|-
+| +4 productivity 3 chips<br/> +3/2 speed 3 chip || 140% || 525% || 115% || 326% || 161% 
+|-
+| +4 productivity 3 chips<br/> +4/2 speed 3 chip || 140% || 560% || 140% || 286% || 196% 
+|-
+| +4 productivity 3 chips<br/> +5/2 speed 3 chip || 140% || 595% || 165% || 258% || 231% 
+|-
+| +4 productivity 3 chips<br/> +6/2 speed 3 chip || 140% || 630% || 190% || 237% || 266% 
+|-
+| +4 productivity 3 chips<br/> +7/2 speed 3 chip || 140% || 665% || 215% || 221% || 301% 
+|-
+| +4 productivity 3 chips<br/> +8/2 speed 3 chip || 140% || 700% || 240% || 209% || 336% 
+|-
+|}
+
+While the effects are biggest with the version 3 chips, this stacking effect is also very noticeable with version 2 chips. Or if the final 10% productivity doesn't matter that much, consider putting a speed chip in there too.
+
+=== Efficiency Module ===
+Minimal energy usage is 20% of base energy usage.
+
+{| class="wikitable"
+|-
+! Level !! [[Energy]] consumption
+|-
+| 1 || -30%
+|-
+| 2 || -40%
+|-
+| 3 || -50%
+|-
+|}
+
+=== Buildings that support modules ===
+
+Buildings support different amounts of modules.
+
+{| class="wikitable"
+|-
+! Building !! Slots
+|-
+| {{imagelink|assembling-machine-2|Assembling machine 2}} || 2
+|-
+| {{imagelink|assembling-machine-3|Assembling machine 3}} || 4
+|-
+| {{imagelink|basic-beacon|Basic beacon}} || 2
+|-
+| {{imagelink|chemical-plant|Chemical plant}} || 2
+|-
+| {{imagelink|electric-furnace|Electric furnace}} || 2
+|-
+| {{imagelink|electric-mining-drill|Electric mining drill}} || 3
+|-
+| {{imagelink|lab|Lab}} || 2
+|-
+| {{imagelink|oil-refinery|Oil refinery}} || 2
+|-
+| {{imagelink|pumpjack|Pumpjack}} || 2
+|-
+|}
+
+
+== Usage tips ==
+
+More modules of the same type in one device will give diminishing returns. Because of that, it is generally more effective to add '''efficiency modules with speed and/or productivity modules''' to get more bonuses over the crafting cascade (assembly lines), especially when assembling machines are part of logistics network. This applies to situations where resources are plentiful but finite.
+
+This is has been [http://www.factorioforums.com/forum/viewtopic.php?f=5&t=5705 calculated through in this discussion].
+
+Filling the device with '''speed modules''' is useful when a resource is infinite but the amount of resource pools is low. The best example would be '''oil deposits'''. Another good place to use speed modules would be for assembly machines which make products that take a long time to make. Examples would be engine units.
+
+Filling devices with '''productivity modules''' is recommended when resources are scarce. Example would be '''alien artifact''' processing.
+
+Filling devices with '''efficiency modules''' is recommended for electric furnaces as these use a lot of power.
+
+Modules are also able to control [[Pollution]], as '''pollution depends also on [[Energy]] usage'''. So reducing a machines energy usage by 40% with a efficiency module 2 will also reduce its pollution by 40%. Beware as this also works vice versa!
+
+== Examples of usage ==
+[[Electric furnace]]s are huge power hogs at 180 kW per furnace. 1 basic efficiency module reduces it by 54 kW (-30%) - almost a [[Solar panel]] worth of power. 
+
+[[Electric mining drill]]s create 9 units of [[Pollution]] with no efficiency modules and 1.8 with 2 basic ones.
+
+Same [[Electric mining drill]] with 3 Productivity modules 3 would create 76.5 units of [[Pollution]].
+
+== Limitations on Productivity Module ==
+
+The productivity module has '''[[Module/Productivity module limitations|some limitations]]!
+
+== Efficiency and Effectivity ==
+
+http://en.wikipedia.org/wiki/Efficiency
+
+http://en.wikipedia.org/wiki/Effectiveness
+
+http://www.usingenglish.com/forum/threads/142360-Is-effectivity-a-relevant-word
+
+And this (lol): http://de.urbandictionary.com/define.php?term=effectivity
+
+... So: Might be changed ...
+
+== See also ==
+* [http://www.factorioforums.com/forum/viewtopic.php?f=5&t=5705 Productivity Module Math]
+* [[Research]]
+* [[Basic beacon]]
+
+[[Category: Technology]]{{Languages}}
+{{Machinery
+|image=Burner-Mining-Drill-Example
+|health=100
+|energy=300 kW burner
+|miningpower=2.5
+|miningspeed=0.35
+|miningarea=2x2
+|pollution=10
+|input=Stone Furnace, 1 + Iron Plate, 3 + Iron Gear Wheel, 3 + Time, 2
+|raw=Iron Plate, 9 + Stone, 5 + Time, 4
+|producers=Manual + Assembling machine 2 + Assembling machine 3
+}}
+
+Mines about 7 resources per single unit of coal used to fuel it. Covers and mines in a 2x2 area. Mines 0.28/s of copper, coal or iron and .3675/s of stone. Burner miners create a lot of pollution per resource.
+
+==Circular-feeding==
+Two burner mining drills can refuel each other, when placed next to each other on a coal deposit as long as they're facing each other. Each drill fuels the other and coal gradually accumulates in their [[Storage/Stack]]s, so you have effectively a storage of 100 coal (2 stack, 50 coal, one in each burner miner, together 100). You can do this also for 4 or any other even number of miners, though [[Electric Mining Drill]]s are far more efficient once [[Electricity]] is available.
+
+==See also==
+* [[Mining drills]]
+
+{{MachineNav}}
+
+[[Category:Items]]
+[[Category:Crafting network]]{{Item
+|input        =Time, 30 + Steel Plate, 10 + Copper Plate, 5 + Plastic bar, 5
+|technologies =Rocket silo
+|producers    =Manual + Assembling machine 2 + Assembling machine 3
+|consumers    =Rocket part + Satellite
+}}
+
+Used in the production of orbital rockets.
+
+== See also ==
+=== Rocket components ===
+* [[Rocket fuel]]
+* [[Rocket control unit]]
+* [[Satellite]]{{Languages}}
+{{Item
+|added=Alpha 0.11.0
+|input=Time, 0.5 + Steel Plate, 2 + Electronic Circuit, 2 + Stone wall
+|raw=Time, 0.5 + Iron Plate, 2 + Copper Plate, 3 + Steel Plate, 2 + Stone Brick, 5
+|technologies=Gates
+|producers=Manual + Assembling machine 2 + Assembling machine 3
+}}
+
+'''Gates''' are a variant of walls introduced in the [[Alpha 0.11.0]] update. They act as a safe opening in [[wall]]s that only the player can use. There are different graphics for normal gates and [[Vehicle/Train|train]] gates; a train gate is one that overlaps a train track. The recipe listed creates a one-tile gate, but multiple adjacent gate items will merge into a single large gate.
+
+== Mechanics ==
+Gates only open for entities of the same force. Hostile forces must destroy the gate unless they can trick a defending entity into opening the gate long enough to move through. Gates have the same defensive strength as a wall.
+
+Normal gates will open whenever a player is within a few tiles, and is on foot or in a non-train vehicle. Train gates will open:
+* whenever a normal gate would open for players on foot or driving;
+* whenever a player is driving a train in manual mode, is on the same track as the gate, and is within a certain distance; and
+* whenever a train is in automatic mode, has its planned path go through the gate, and is within a certain distance.
+
+(TODO: Test the exact open radius for trains and for walking, and check whether cars/tanks have their own distance or not.)
+
+== See also ==
+* [[Wall]]s
+* [[Enemies]]
+* [[Defense]]
+* [[Spitter]]{{Item
+|input        =Time, 30 + Processing Unit, 1 + Speed module, 1
+|technologies =Rocket silo
+|producers    =Manual + Assembling machine
+|consumers    =Rocket part
+}}
+
+Used in the production of orbital rockets.
+
+== See also ==
+=== Rocket components ===
+* [[Low density structure]]
+* [[Rocket fuel]]
+* [[Satellite]]{{Languages}}
+{{Combat/sandbox2
+|added=
+|health=350
+|input=Stone Brick, 5 + Time, 0.5
+|raw=Stone, 10
+|technologies=Stone walls
+|producers=Manual + Assembling machine 1 + Assembling machine 2 + Assembling machine 3
+|consumers=Gate
+}}
+'''Walls''' provide basic damage protection against [[Enemies]].  In Alpha 0.11.0 [[Gate]]s were added as a separate item allowing movement through the walls.  They are a separate item created using walls.  The Alpha 0.11.0 update also added the technology [[stone walls]], which is a required research for building walls now. (Prior to Alpha 0.11.0 no research for walls was required.)
+
+==See also==
+* [[Enemies]]
+* [[Defense]]
+
+[[Category:Items]]
+[[Category:Weapons]]{{Languages}}
+{{Machinery
+|health       =100
+|efficiency   =50%
+|energy       =780 kW burner
+|poweroutput  =390 kW<br />(liquid heat)
+|pollution    =6
+|input        =time, 0.5 + stone furnace + pipe
+|raw          =time, 1.5 + stone, 5 + iron plate
+|producers    =manual + assembling machine
+}}
+[[File:boiler-example-1.png|thumb|256px]]
+The boiler is used to heat [[Liquid]]s (mainly water). When [[Fuel|fueled]] it raises the temperature of water flowing through it. The resulting temperature depends on the speed of the liquid flow. In other words: The longer the water can stay in the boiler, the hotter it will become.
+
+Boilers are the main source of pollution in the early and midgame.
+
+== Inserter can take from boiler ==
+
+You can insert into boilers, but also take fuel out. See [http://www.factorioforums.com/forum/viewtopic.php?f=8&t=6008&start=30#p64343 this post] and follow ups.
+
+This can be also used to create an early filter-device, which filters only fuel items: One inserter inserts into a boiler (not connected to water) another take the fuel out.
+
+== See also ==
+* [[Electric network]]
+* [[Liquid network]]
+
+
+{{MachineNav}}
+
+[[Category:Items]]
+[[Category:Liquid network]]
+[[Category:Transport network]]
