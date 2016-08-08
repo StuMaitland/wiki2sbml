@@ -1,11 +1,24 @@
 import requests
 from bs4 import BeautifulSoup
 import urllib
+import math
 
 ##Configuration options
 wikiUrl = ("wiki.factorio.com")
 wikiPath = ""
 categoryPageTitle = "Items"
+
+modelTitle = "FactorioEndGame"
+richness = 200
+startParameters = {
+    "coal" : 100000000 * richness,
+    "ironore" : 100000000 * richness,
+    "copperore" : 100000000 * richness,
+    "oil" : 100000000 * richness,
+    "stone" : 100000000 * richness,
+    "water" : 100000000000000 * richness,
+    "wood" : 10000000000 * richness
+}
 
 
 class CraftRecipe():
@@ -15,92 +28,119 @@ class CraftRecipe():
         self.ingredients = {}
         self.wikientry = ""
 
-    def makerecipetext(self):
-        string = ""
-        for key, value in self.ingredients.iteritems():
-            string = string + str(value) + key.lower() + "+"
-        string = string[:-1]  # Remove last superfluous + sign
-        string = string + "->" + self.title.lower()
-        string = string.replace(" ", "")
-        return string
+    def makeRecipeText(self):
+
+        #Recipe is made up of 3 parts:
+        #   Title line
+        #   Reaction specification
+        #   Rate law
+        try:
+            titleLine = '@r={0}Crafting "{1} Crafting"'.format(self.title.replace(" ", ""), self.title)
+        except:
+            print(self.title)
+        reaction =""
+        for key, value in self.ingredients.items():
+            sanitizedKey = key.lower().replace(" ", "").replace("-","")
+            reaction += str(value).replace(" ", "") + sanitizedKey + " + "
+        reaction = reaction[:-3]  # Remove last superfluous + sign
+        reaction += " -> " + self.title.lower().replace(" ", "")
+        reaction.replace("\n","")
+        reaction = reaction.replace("\\n", "") #Escaped characters \\n sneak in from the wiki entry. Remove those
+
+        if self.time > 0:
+            rateLaw = "rate{0} : rate{0}={1}".format(self.title.replace(" ", ""),(1.0/self.time))
+
+            recipe= titleLine + "\n" + reaction + "\n" + rateLaw
+
+            return recipe
+        else:
+            return ""
+            #return "#Error with recipe: " + self.title + " : " + self.wikientry + str(len(self.wikientry))
 
 
-def getlistofpages(wikiUrl, wikiPath, categoryPageTitle):
-    correctpages = []
+def GetListOfPages(wikiUrl, wikiPath, categoryPageTitle):
+    correctPages = []
     r = requests.get("http://" + wikiUrl + wikiPath + "/api.php?action=parse&format=json&page=" + categoryPageTitle,
                      verify=False)
     print("the server responded with " + r.reason)
     pagejson = r.json()
     # returns list as default, get first item of list
-    listofpages = pagejson['parse']['links']
-    for page in listofpages:
-        outputtitle = ""
+    listOfPages = pagejson['parse']['links']
+    for page in listOfPages:
+        outputTitle = ""
         if categoryPageTitle not in page['*']:
             # remove any internationalised links e.g. foo/fr
 
-            outputtitle = str(page['*'])
+            outputTitle = str(page['*'])
             # Title Case
-            # outputtitle=outputtitle.title()
-            outputtitle = outputtitle.replace(" ", "+")
+            outputTitle = outputTitle.replace(" ", "+")
             # url encode to detect page
-            # outputtitle=urllib.quote_plus(outputtitle)
-            correctpages.append(outputtitle)
-    return correctpages
+            correctPages.append(outputTitle.lower())
+    return correctPages
 
 
-def extractwikicode(listofpages):
-    wikicode = []
+def extractWikiCode(listofpages):
+    for page in listofpages:
+        page.replace(" ", "+")
+    wikiCode = []
     concatTitles = []
-    orderedtitles = []
+    orderedTitles = []
 
-    for i in range(abs(len(listofpages) / 50)):
-        # avoid the rate limit in the next step, group concatenated titles in groups of 50
-        thisgroupoftitles = listofpages[i * 50:i * 50 + 50]
-        concatTitles.append("|".join(thisgroupoftitles))
+    # avoid the rate limit in the next step, group concatenated titles in groups of 50
+    if len(listofpages)>1:
+        for i in range(math.ceil(len(listofpages) / 50)):
+            thisGroupOfTitles = listofpages[i * 50:i * 50 + 50]
+            concatTitles.append("|".join(thisGroupOfTitles))
+
+    else:
+        concatTitles = listofpages
 
     for pageGroup in concatTitles:
-        print(concatTitles)
         r = requests.get(
             "http://" + wikiUrl + wikiPath + "/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=" + pageGroup,
             verify=False)
+        print(pageGroup)
 
         # This is a ridiculous way to navigate the json tree, there must be a better way
         # Until then:
         ## By default this returns multiple queries, for multiple pages.
         ## Iterate over each page returned in the result
-        for page, title in zip(r.json()['query']['pages'].values(), thisgroupoftitles):
+        for page, title in zip(r.json()['query']['pages'].values(), thisGroupOfTitles):
             # Get the most recent revision, all text
             try:
-                wikicode.append(page['revisions'][0]['*'].encode('ascii', 'ignore'))
-                orderedtitles.append(page['title'])
+                wikiCode.append(page['revisions'][0]['*'])
+                orderedTitles.append(page['title'])
             except:
-                print(page, page['title'])
+                print("error1: ", page, page['title'])
 
-    return wikicode, orderedtitles
+    return wikiCode, orderedTitles
 
 
-def exportwikicode(code, pagetitles):
+def exportWikiCode(code, pagetitles):
     with open("wikicode" + ".txt", 'w') as f:
         for item, title in zip(code, pagetitles):
-            f.write(title.encode('ascii', 'ignore') + "\n")
-            f.write(item.encode('ascii', 'ignore'))
+            f.write(str(title) + "\n")
+            f.write(str(item))
 
 
-def extractrecipe(page, title):
+def extractRecipe(page, title):
     x = CraftRecipe(title)
-    r = page.split("\n")
-    print(r)
-    print("")
-    for line in r:
-        if "input" in line:
-            print("input in line")
-            x.wikientry = line
+    stringPage=str(page)
+    r = stringPage.split("|")
+    for section in r:
+        if section[-2:] == "\n":
+            section = section[:-2]
+        if "input" in section:
+            x.wikientry = section
             try:
-                formula = line.split("=")[1]
+                formula = section.split("=")[1]
             except:
-                print("error at: " + title + ". The content was: " + line)
+                formula=""
+                print("error2: " + section)
+
             for unit in formula.split("+"):
                 if "time" in unit.lower():
+
                     try:
                         x.time = int(unit.split(",")[1])
                     except:
@@ -108,35 +148,44 @@ def extractrecipe(page, title):
                 else:
                     try:
                         x.ingredients[unit.split(",")[0]] = unit.split(",")[1]
+
                     except:
                         # single ingredient amount is not split by ","
                         x.ingredients[unit.split(",")[0]] = 1
-        if x.ingredients:
-            return x
-        else:
-            return x
+
+    return x
 
 
-listofpages = getlistofpages(wikiUrl, wikiPath, categoryPageTitle)
+ListOfPages = GetListOfPages(wikiUrl, wikiPath, categoryPageTitle)
 
-wikicode, orderedtitles = extractwikicode(listofpages)
+WikiCode, orderedTitles = extractWikiCode(ListOfPages)
 
-allitems = []
+AllTheItems = []
 
-for page, title in zip(wikicode, orderedtitles):
-    allitems.append(extractrecipe(page, title))
+for page, title in zip(WikiCode, orderedTitles):
+    AllTheItems.append(extractRecipe(page, title))
 badtitles = []
-for item in allitems:
+for item in AllTheItems:
     if item.wikientry == "":
+        #item.wikientry= extractWikiCode(item.title.lower().capitalize().replace(" ", "+"))
         # Change Title Case to First letter case
-        badtitles.append(item.title.lower().capitalize().replace(" ", "+"))
+        print(item.title)
+        badtitles.append(item.title.title().replace(" ", "+"))
 
-wikicode, orderedtitles = extractwikicode(badtitles)
-for page, title in zip(wikicode, orderedtitles):
-    allitems.append(extractrecipe(page, title))
+print(str(len(badtitles)))
+wikiCode, orderedTitles = extractWikiCode(badtitles)
+for page, title in zip(wikiCode, orderedTitles):
+    AllTheItems.append(extractRecipe(page, title))
 
-for item in allitems:
-    print()
-    item.makerecipetext()
-print("")
-exportwikicode(wikicode, orderedtitles)
+completeRecipes=[]
+for item in AllTheItems:
+    completeRecipes.append(item.makeRecipeText())
+
+#Clear the file before appending all the recipes
+with open ("recipes.txt", "w"):
+    pass
+
+for reaction in completeRecipes:
+    with open("recipes.txt", 'a') as myfile:
+        myfile.write(reaction)
+        myfile.write("\n\n")
