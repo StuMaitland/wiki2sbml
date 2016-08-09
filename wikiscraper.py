@@ -8,7 +8,7 @@ wikiUrl = ("wiki.factorio.com")
 wikiPath = ""
 categoryPageTitle = "Items"
 
-modelTitle = "FactorioEndGame"
+modelTitle = "Factorio End Game"
 richness = 200
 startParameters = {
     "coal" : 100000000 * richness,
@@ -40,11 +40,14 @@ class CraftRecipe():
             print(self.title)
         reaction =""
         for key, value in self.ingredients.items():
+            sanitizedKey=""
             sanitizedKey = key.lower().replace(" ", "").replace("-","")
-            reaction += str(value).replace(" ", "") + sanitizedKey + " + "
+            # Add the item prefixed by its stoichiometry i.e. 2steel
+            if sanitizedKey:
+                reaction += str(value).replace(" ", "") + sanitizedKey + " + "
         reaction = reaction[:-3]  # Remove last superfluous + sign
         reaction += " -> " + self.title.lower().replace(" ", "")
-        reaction.replace("\n","")
+        reaction = reaction.replace("\n","")
         reaction = reaction.replace("\\n", "") #Escaped characters \\n sneak in from the wiki entry. Remove those
 
         if self.time > 0:
@@ -124,14 +127,14 @@ def exportWikiCode(code, pagetitles):
 
 
 def extractRecipe(page, title):
-    x = CraftRecipe(title)
+    newItem = CraftRecipe(title)
     stringPage=str(page)
     r = stringPage.split("|")
     for section in r:
         if section[-2:] == "\n":
             section = section[:-2]
         if "input" in section:
-            x.wikientry = section
+            newItem.wikientry = section
             try:
                 formula = section.split("=")[1]
             except:
@@ -142,18 +145,18 @@ def extractRecipe(page, title):
                 if "time" in unit.lower():
 
                     try:
-                        x.time = int(unit.split(",")[1])
+                        newItem.time = int(unit.split(",")[1])
                     except:
-                        x.time = 1
+                        newItem.time = 1
                 else:
                     try:
-                        x.ingredients[unit.split(",")[0]] = unit.split(",")[1]
+                        newItem.ingredients[unit.split(",")[0]] = unit.split(",")[1]
 
                     except:
                         # single ingredient amount is not split by ","
-                        x.ingredients[unit.split(",")[0]] = 1
+                        newItem.ingredients[unit.split(",")[0]] = 1
 
-    return x
+    return newItem
 
 
 ListOfPages = GetListOfPages(wikiUrl, wikiPath, categoryPageTitle)
@@ -167,12 +170,10 @@ for page, title in zip(WikiCode, orderedTitles):
 badtitles = []
 for item in AllTheItems:
     if item.wikientry == "":
-        #item.wikientry= extractWikiCode(item.title.lower().capitalize().replace(" ", "+"))
         # Change Title Case to First letter case
-        print(item.title)
+        #print(item.title)
         badtitles.append(item.title.title().replace(" ", "+"))
 
-print(str(len(badtitles)))
 wikiCode, orderedTitles = extractWikiCode(badtitles)
 for page, title in zip(wikiCode, orderedTitles):
     AllTheItems.append(extractRecipe(page, title))
@@ -181,11 +182,26 @@ completeRecipes=[]
 for item in AllTheItems:
     completeRecipes.append(item.makeRecipeText())
 
-#Clear the file before appending all the recipes
-with open ("recipes.txt", "w"):
+with open("misc.mod") as myfile:
+    content = myfile.read()
+
+
+#Clear the file before appending all the recipes and other model information
+with open ("recipes.mod", "w") as myfile:
     pass
+    myfile.write('@model:3.1.1={0} "{1}" \n'.format(modelTitle.replace(" ", ""),modelTitle))
+    myfile.write('@compartments\n   cell=1\n')
+
+    myfile.write('@species\n')
+    for key, value in startParameters.items():
+        myfile.write('  cell:{0}={1}\n'.format(key,value))
+
+    myfile.write('@reactions\n')
+    myfile.write(content)
+
 
 for reaction in completeRecipes:
-    with open("recipes.txt", 'a') as myfile:
+    with open("recipes.mod", 'a') as myfile:
         myfile.write(reaction)
         myfile.write("\n\n")
+
